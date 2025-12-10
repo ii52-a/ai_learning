@@ -1,0 +1,11 @@
+
+#环境变量
+.venv
+.env
+
+#数据文件
+*.csv
+*.db
+
+#文件
+deepseek_v3_tokenizer
