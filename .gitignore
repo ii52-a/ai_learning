@@ -3,6 +3,9 @@
 .venv
 .env
 
+#
+.idea
+
 #数据文件
 *.csv
 *.db
