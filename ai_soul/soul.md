@@ -1,0 +1,10 @@
+## core 远端大脑
+## perception 感知模块
+## personality 性格模块
+## emotion 情绪模块
+## memory 记忆处理模块
+## storage 储存模块
+## decision 决策模块
+## cortex 远程思考模块
+## actions 行为功能模块
+## core 主控模块

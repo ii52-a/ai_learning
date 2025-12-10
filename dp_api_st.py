@@ -13,7 +13,7 @@ class DeepSeekClint:
             "Content-Type": "application/json",
         }
 
-    def chat(self,messages,model='deepseek-chat',temperature=0.7,max_token=512):
+    def chat(self,messages,model='deepseek-chat',temperature=0.7,max_tokens=512):
         """
 
         :param message: [{"role":"user","Content":"hello"}]
@@ -26,15 +26,15 @@ class DeepSeekClint:
         payload = {
             "model": model,
             "temperature": temperature,
-            "max_token": max_token,
-            "message": messages,
+            "max_tokens": max_tokens,
+            "messages": messages,
         }
-        response = requests.post(url=url, headers=self.headers, json=json.dumps(payload))
+        response = requests.post(url=url, headers=self.headers, json=payload)
         response.raise_for_status()
         data=response.json()
         return data['choices'][0]['message']['content']
 
-    def completion(self,prompt,model='deepseek-chat',temperature=0.7,max_token=512):
+    def completion(self,prompt,model='deepseek-chat',temperature=0.7,max_tokens=512):
         """
         文本补全模块
         :param prompt:
@@ -46,21 +46,21 @@ class DeepSeekClint:
             "model": model,
             "prompt": prompt,
             "temperature": temperature,
-            "max_token": max_token,
+            "max_tokens": max_tokens,
         }
-        response = requests.post(url=url, headers=self.headers, json=json.dumps(payload))
+        response = requests.post(url=url, headers=self.headers, json=payload)
         response.raise_for_status()
         data=response.json()
-        return data['choices'][0]['text']
+        return data['data']['choices'][0]['text']
 
-    def enbeddings(self,text,model='deepseek-enbeddings'):
+    def embeddings(self,text,model='deepseek-embeddings'):
         """
         生成向量
         :param prompt:
         :param model:
         :return:
         """
-        url=f"{self.base_url}/enbeddings"
+        url=f"{self.base_url}/embeddings"
         payload = {
             "model": model,
             "input": text,
@@ -68,4 +68,5 @@ class DeepSeekClint:
         response = requests.post(url=url, headers=self.headers, json=json.dumps(payload))
         response.raise_for_status()
         data=response.json()
-        return data[0]['enbeddings']
+        #response["data"][0]["embedding"]
+        return data[0]['embeddings']
