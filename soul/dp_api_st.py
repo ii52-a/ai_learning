@@ -8,6 +8,7 @@ class DeepSeekClint:
                  ):
         self.api_key=api_key
         self.base_url=base_url
+        #权限，内容格式
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
@@ -16,10 +17,10 @@ class DeepSeekClint:
     def chat(self,messages,model='deepseek-chat',temperature=0.7,max_tokens=512):
         """
 
-        :param message: [{"role":"user","Content":"hello"}]
-        :param model: deepseek-chat deepseek-reasoner
+        :param messages: [{"role":"user","content":"hello"}]
+        :param model: deepseek-chat/deepseek-reasoner
         :param temperature: 随机性
-        :param max_token: 最大token输出
+        :param max_tokens: 最大token输出
         :return: ai返回的文本
         """
         url=f"{self.base_url}/chat/completions"
@@ -37,6 +38,8 @@ class DeepSeekClint:
     def completion(self,prompt,model='deepseek-chat',temperature=0.7,max_tokens=512):
         """
         文本补全模块
+        :param max_tokens:
+        :param temperature:
         :param prompt:
         :param model:
         :return:
@@ -56,7 +59,7 @@ class DeepSeekClint:
     def embeddings(self,text,model='deepseek-embeddings'):
         """
         生成向量
-        :param prompt:
+        :param text:
         :param model:
         :return:
         """

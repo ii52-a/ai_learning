@@ -5,10 +5,10 @@
 
 #
 .idea
-
+_py
 #数据文件
 *.csv
 *.db
 
 #文件
-deepseek_v3_tokenizer
+STUDY/deepseek_v3_tokenizer

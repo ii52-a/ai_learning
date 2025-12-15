@@ -1,0 +1,67 @@
+ (logger.py:68): [17a0cfc9] [CORE] step start | user_input=''  <INFO> 2025-12-15 11:40:09,339
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:40:09,342
+ (logger.py:71): <17a0cfc9> [orchestrator_step]>>[parser,parse]params:output:Parse(text='')  <DEBUG> 2025-12-15 11:40:09,342
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:40:09,342
+ (logger.py:71): <17a0cfc9> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='')output:None  <DEBUG> 2025-12-15 11:40:09,342
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:40:09,342
+ (logger.py:71): <17a0cfc9> [orchestrator_step]>>[memory,remember]params:Parse(text='')output:None  <DEBUG> 2025-12-15 11:40:09,343
+ (logger.py:68): [45a1357d] [CORE] step start | user_input='aa'  <INFO> 2025-12-15 11:44:57,938
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:71): <45a1357d> [orchestrator_step]>>[parser,parse]params:aaoutput:Parse(text='aa')  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:71): <45a1357d> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:71): <45a1357d> [orchestrator_step]>>[memory,remember]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:44:57,938
+ (logger.py:69): [1d9601d3] [CORE] step start | user_input='aa'  <INFO> 2025-12-15 11:46:55,417
+ (logger.py:72): start:====================  <DEBUG> 2025-12-15 11:46:55,417
+ (logger.py:72): 
+  <DEBUG> 2025-12-15 11:46:55,417
+ (logger.py:72): <1d9601d3> [orchestrator_step]>>[parser,parse]params:aaoutput:Parse(text='aa')  <DEBUG> 2025-12-15 11:46:55,417
+ (logger.py:72): start:====================  <DEBUG> 2025-12-15 11:46:55,417
+ (logger.py:72): 
+  <DEBUG> 2025-12-15 11:46:55,417
+ (logger.py:72): <1d9601d3> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:46:55,418
+ (logger.py:72): start:====================  <DEBUG> 2025-12-15 11:46:55,418
+ (logger.py:72): 
+  <DEBUG> 2025-12-15 11:46:55,418
+ (logger.py:72): <1d9601d3> [orchestrator_step]>>[memory,remember]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:46:55,418
+ [72e620f1] [CORE] step start | user_input='aa'  <INFO> 2025-12-15 11:48:14,512
+ start:====================  <DEBUG> 2025-12-15 11:48:14,514
+ 
+  <DEBUG> 2025-12-15 11:48:14,514
+ <72e620f1> [orchestrator_step]>>[parser,parse]params:aaoutput:Parse(text='aa')  <DEBUG> 2025-12-15 11:48:14,514
+ start:====================  <DEBUG> 2025-12-15 11:48:14,514
+ 
+  <DEBUG> 2025-12-15 11:48:14,514
+ <72e620f1> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:48:14,514
+ start:====================  <DEBUG> 2025-12-15 11:48:14,514
+ 
+  <DEBUG> 2025-12-15 11:48:14,514
+ <72e620f1> [orchestrator_step]>>[memory,remember]params:Parse(text='aa')output:None  <DEBUG> 2025-12-15 11:48:14,514
+ [8b5700e4] [CORE] step start | user_input='a'  <INFO> 2025-12-15 11:49:47,781
+ start:====================
+text:<8b5700e4> [orchestrator_step]>>[parser,parse]params:aoutput:Parse(text='a')  <DEBUG> 2025-12-15 11:49:47,781
+ start:====================
+text:<8b5700e4> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='a')output:None  <DEBUG> 2025-12-15 11:49:47,781
+ start:====================
+text:<8b5700e4> [orchestrator_step]>>[memory,remember]params:Parse(text='a')output:None  <DEBUG> 2025-12-15 11:49:47,781
+2025-12-15 11:50:48,240 [763c6be4] [CORE] step start | user_input='a'  <INFO> 
+2025-12-15 11:50:48,240 start:====================
+<763c6be4> [orchestrator_step]>>[parser,parse]params:aoutput:Parse(text='a')  <DEBUG> 
+2025-12-15 11:50:48,240 start:====================
+<763c6be4> [orchestrator_step]>>[emotion,update_emotion]params:Parse(text='a')output:None  <DEBUG> 
+2025-12-15 11:50:48,240 start:====================
+<763c6be4> [orchestrator_step]>>[memory,remember]params:Parse(text='a')output:None  <DEBUG> 
+2025-12-15 11:51:32,932 [69fa0637] [CORE] step start | user_input='a'  <INFO> 
+2025-12-15 11:51:32,933 start:====================
+<69fa0637> [orchestrator_step]>>[parser,parse]
+params:a
+output:Parse(text='a')  <DEBUG> 
+2025-12-15 11:51:32,933 start:====================
+<69fa0637> [orchestrator_step]>>[emotion,update_emotion]
+params:Parse(text='a')
+output:None  <DEBUG> 
+2025-12-15 11:51:32,933 start:====================
+<69fa0637> [orchestrator_step]>>[memory,remember]
+params:Parse(text='a')
+output:None  <DEBUG> 
