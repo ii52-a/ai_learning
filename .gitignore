@@ -12,3 +12,4 @@ _py
 
 #文件
 STUDY/deepseek_v3_tokenizer
+*.pyc

@@ -1,0 +1,81 @@
+ (logger.py:80): Exception occurred: 'function' object has no attribute 'text'  <ERROR> 2025-12-15 19:19:05,092
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:30:54,694
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:31:33,070
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:32:24,680
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:32:54,198
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:36:28,877
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:42:45,099
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:44:15,259
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+ (logger.py:80): Exception occurred: 'NoneType' object has no attribute 'text'  <ERROR> 2025-12-15 19:45:05,810
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\responder.py", line 17, in respond
+    base=f"你说了:{parsed.text}"
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'

@@ -29,7 +29,7 @@ class Logger:
         log_file = module_dir / f"{self.logger_name}.log"
 
         formatter = logging.Formatter(
-            '%(asctime)s %(message)s  <%(levelname)s> '
+            ' (%(filename)s:%(lineno)d): %(message)s  <%(levelname)s> %(asctime)s'
         )
 
 
@@ -57,7 +57,12 @@ class Logger:
         return logger
 
     def start_debug(self,text,format_str:str='=',format_num:int=20):
-        self.debug(f"start:{format_str*format_num}\n{text}")
+        self.debug("start:"+format_str*format_num)
+        self.debug(text)
+
+    def end_debug(self,text,format_str:str='=',format_num:int=20):
+        self.debug("end:"+format_str*format_num)
+        self.debug(text)
 
     def info(self,text):
         self.logger.info(text)
@@ -68,6 +73,12 @@ class Logger:
     def warning(self,text):
         self.logger.warning(text)
 
+    def error(self,text):
+        self.logger.error(text)
+
+    def exception(self,text):
+        self.logger.exception(text)
+
     def orchestrator_step(self,trace_id:uuid,
                           process:str,
                           params:any,
@@ -76,5 +87,5 @@ class Logger:
         self.start_debug(
             f"<{trace_id}> [orchestrator_step]>>[{process}]\n"
             f"params:{params}\n"
-            f"output:{output}"
+            f"output:{output}\n"
         )

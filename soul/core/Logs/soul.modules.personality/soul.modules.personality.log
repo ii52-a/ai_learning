@@ -1,0 +1,9 @@
+ (logger.py:80): Exception occurred: 'EmotionState' object is not subscriptable  <ERROR> 2025-12-15 18:33:31,454
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\personality.py", line 12, in adjust
+    if emotion_state['valence'] >=0.6:
+       ~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'EmotionState' object is not subscriptable

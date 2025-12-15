@@ -1,6 +1,11 @@
+import os
+
+import dotenv
 import requests
 import json
 
+from soul.utils.config import InitPersonality
+dotenv.load_dotenv()
 class DeepSeekClint:
     def __init__(self,
                  api_key:str,
@@ -24,11 +29,12 @@ class DeepSeekClint:
         :return: ai返回的文本
         """
         url=f"{self.base_url}/chat/completions"
+        init_personality:list=InitPersonality.INIT_PERSONALITY
         payload = {
             "model": model,
             "temperature": temperature,
             "max_tokens": max_tokens,
-            "messages": messages,
+            "messages":init_personality+messages,
         }
         response = requests.post(url=url, headers=self.headers, json=payload)
         response.raise_for_status()
@@ -73,3 +79,10 @@ class DeepSeekClint:
         data=response.json()
         #response["data"][0]["embedding"]
         return data[0]['embeddings']
+
+if __name__ == '__main__':
+    api=os.getenv("DEEPSEEK_API_KEY")
+    print(api)
+    a=DeepSeekClint(api_key=api)
+    str_ai=[{"role":"user","content":f"{input()}"}]
+    print(a.chat(str_ai))
