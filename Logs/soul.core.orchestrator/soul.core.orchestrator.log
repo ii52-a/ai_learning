@@ -1,0 +1,181 @@
+ (orchestrator.py:64): [f22c3e89] parse start: 记住我喜欢黑咖啡，不喜欢太甜  <DEBUG> 2026-03-08 18:04:05,316
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:05,319
+ (logger.py:61): <f22c3e89> [orchestrator_step]>>[agent_step]
+params:记住我喜欢黑咖啡，不喜欢太甜
+output:{'intent': 'memory_save', 'emotion': '平静(愉悦 0.58, 唤醒 0.55, 掌控 0.60)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:05,320
+ (orchestrator.py:64): [caa5cdf9] parse start: 你还记得我喜欢什么吗  <DEBUG> 2026-03-08 18:04:05,320
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:05,323
+ (logger.py:61): <caa5cdf9> [orchestrator_step]>>[agent_step]
+params:你还记得我喜欢什么吗
+output:{'intent': 'memory_query', 'emotion': '愉快(愉悦 0.66, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:05,323
+ (orchestrator.py:64): [a4a232cc] parse start: 现在你的心跳和情绪状态  <DEBUG> 2026-03-08 18:04:05,323
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:05,326
+ (logger.py:61): <a4a232cc> [orchestrator_step]>>[agent_step]
+params:现在你的心跳和情绪状态
+output:{'intent': 'status_query', 'emotion': '愉快(愉悦 0.67, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:05,326
+ (orchestrator.py:64): [b4eb7b02] parse start: 记住我喜欢黑咖啡，不喜欢太甜  <DEBUG> 2026-03-08 18:04:38,782
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:38,786
+ (logger.py:61): <b4eb7b02> [orchestrator_step]>>[agent_step]
+params:记住我喜欢黑咖啡，不喜欢太甜
+output:{'intent': 'memory_save', 'emotion': '平静(愉悦 0.58, 唤醒 0.55, 掌控 0.60)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:38,786
+ (orchestrator.py:64): [0785d754] parse start: 你还记得我喜欢什么吗  <DEBUG> 2026-03-08 18:04:38,786
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:38,788
+ (logger.py:61): <0785d754> [orchestrator_step]>>[agent_step]
+params:你还记得我喜欢什么吗
+output:{'intent': 'memory_query', 'emotion': '愉快(愉悦 0.66, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:38,789
+ (orchestrator.py:64): [0bea6fa3] parse start: 现在你的心跳和情绪状态  <DEBUG> 2026-03-08 18:04:38,789
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:04:38,791
+ (logger.py:61): <0bea6fa3> [orchestrator_step]>>[agent_step]
+params:现在你的心跳和情绪状态
+output:{'intent': 'status_query', 'emotion': '愉快(愉悦 0.67, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:04:38,791
+ (orchestrator.py:64): [0b4352de] parse start: 记住我喜欢黑咖啡，不喜欢太甜  <DEBUG> 2026-03-08 18:05:20,071
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:05:20,073
+ (logger.py:61): <0b4352de> [orchestrator_step]>>[agent_step]
+params:记住我喜欢黑咖啡，不喜欢太甜
+output:{'intent': 'memory_save', 'emotion': '平静(愉悦 0.58, 唤醒 0.55, 掌控 0.60)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:05:20,073
+ (orchestrator.py:64): [3d8a50c5] parse start: 你还记得我喜欢什么吗  <DEBUG> 2026-03-08 18:05:20,073
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:05:20,075
+ (logger.py:61): <3d8a50c5> [orchestrator_step]>>[agent_step]
+params:你还记得我喜欢什么吗
+output:{'intent': 'memory_query', 'emotion': '愉快(愉悦 0.66, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:05:20,075
+ (orchestrator.py:64): [bb2f28ac] parse start: 现在你的心跳和情绪状态  <DEBUG> 2026-03-08 18:05:20,075
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:05:20,078
+ (logger.py:61): <bb2f28ac> [orchestrator_step]>>[agent_step]
+params:现在你的心跳和情绪状态
+output:{'intent': 'status_query', 'emotion': '愉快(愉悦 0.67, 唤醒 0.60, 掌控 0.65)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:05:20,078
+ (orchestrator.py:64): [1c26199a] parse start: 记住我喜欢黑咖啡，不喜欢太甜  <DEBUG> 2026-03-08 18:06:08,777
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:06:08,780
+ (logger.py:61): <1c26199a> [orchestrator_step]>>[agent_step]
+params:记住我喜欢黑咖啡，不喜欢太甜
+output:{'intent': 'memory_save', 'emotion': '平静(愉悦 0.58, 唤醒 0.55, 掌控 0.60)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:06:08,780
+ (orchestrator.py:73): [2dc9eb53] parse start: 记住我喜欢黑咖啡  <DEBUG> 2026-03-08 18:33:21,257
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:33:21,260
+ (logger.py:61): <2dc9eb53> [orchestrator_step]>>[agent_step]
+params:记住我喜欢黑咖啡
+output:{'intent': 'memory_save', 'emotion': '平静(愉悦 0.58, 唤醒 0.55, 掌控 0.60)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:33:21,260
+ (orchestrator.py:73): [71643210] parse start: 你还记得我喜欢什么吗  <DEBUG> 2026-03-08 18:33:21,260
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:33:21,263
+ (logger.py:61): <71643210> [orchestrator_step]>>[agent_step]
+params:你还记得我喜欢什么吗
+output:{'intent': 'memory_query', 'emotion': '愉快(愉悦 0.66, 唤醒 0.60, 掌控 0.65)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:33:21,263
+ (orchestrator.py:73): [97deb4ec] parse start: 任务：打开计算器，然后搜索 Python dataclass 教程  <DEBUG> 2026-03-08 18:33:21,263
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:33:21,537
+ (logger.py:61): <97deb4ec> [orchestrator_step]>>[agent_step]
+params:任务：打开计算器，然后搜索 Python dataclass 教程
+output:{'intent': 'task_plan', 'emotion': '兴奋(愉悦 0.75, 唤醒 0.65, 掌控 0.77)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:33:21,537
+ (orchestrator.py:73): [775ddfc9] parse start: 任务：打开计算器，然后搜索 Python dataclass 教程  <DEBUG> 2026-03-08 18:34:41,876
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:34:42,113
+ (logger.py:61): <775ddfc9> [orchestrator_step]>>[agent_step]
+params:任务：打开计算器，然后搜索 Python dataclass 教程
+output:{'intent': 'task_plan', 'emotion': '平静(愉悦 0.59, 唤醒 0.50, 掌控 0.67)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:34:42,113
+ (orchestrator.py:73): [67162fe1] parse start: 看看屏幕  <DEBUG> 2026-03-08 18:34:42,114
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:34:42,264
+ (logger.py:61): <67162fe1> [orchestrator_step]>>[agent_step]
+params:看看屏幕
+output:{'intent': 'action_inspect_screen', 'emotion': '愉快(愉悦 0.64, 唤醒 0.55, 掌控 0.73)', 'action': 'inspect_screen', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:34:42,264
+ (orchestrator.py:73): [aee83823] parse start: 任务：打开计算器，然后搜索 Python dataclass 教程  <DEBUG> 2026-03-08 18:35:15,662
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:15,887
+ (logger.py:61): <aee83823> [orchestrator_step]>>[agent_step]
+params:任务：打开计算器，然后搜索 Python dataclass 教程
+output:{'intent': 'task_plan', 'emotion': '平静(愉悦 0.59, 唤醒 0.50, 掌控 0.67)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:15,887
+ (orchestrator.py:73): [4a29470e] parse start: 看看屏幕  <DEBUG> 2026-03-08 18:35:15,887
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:16,024
+ (logger.py:61): <4a29470e> [orchestrator_step]>>[agent_step]
+params:看看屏幕
+output:{'intent': 'action_inspect_screen', 'emotion': '愉快(愉悦 0.64, 唤醒 0.55, 掌控 0.73)', 'action': 'inspect_screen', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:16,024
+ (orchestrator.py:73): [f40d5bb0] parse start: 列出窗口  <DEBUG> 2026-03-08 18:35:16,024
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:16,027
+ (logger.py:61): <f40d5bb0> [orchestrator_step]>>[agent_step]
+params:列出窗口
+output:{'intent': 'action_list_windows', 'emotion': '愉快(愉悦 0.69, 唤醒 0.60, 掌控 0.79)', 'action': 'list_windows', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:16,027
+ (orchestrator.py:70): [1fe1023e] parse start: 创建 notes.txt 内容 你好，Soul  <DEBUG> 2026-03-08 18:47:41,870
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:47:41,883
+ (logger.py:61): <1fe1023e> [orchestrator_step]>>[agent_step]
+params:创建 notes.txt 内容 你好，Soul
+output:{'intent': 'action_write_file', 'emotion': '平静(愉悦 0.55, 唤醒 0.50, 掌控 0.61)', 'action': 'write_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:47:41,883
+ (orchestrator.py:70): [85323791] parse start: 读取 notes.txt  <DEBUG> 2026-03-08 18:47:41,883
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:47:41,887
+ (logger.py:61): <85323791> [orchestrator_step]>>[agent_step]
+params:读取 notes.txt
+output:{'intent': 'action_read_file', 'emotion': '平静(愉悦 0.60, 唤醒 0.55, 掌控 0.67)', 'action': 'read_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:47:41,888
+ (orchestrator.py:70): [c5fa1b52] parse start: 查看进程  <DEBUG> 2026-03-08 18:47:41,888
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:47:41,952
+ (logger.py:61): <c5fa1b52> [orchestrator_step]>>[agent_step]
+params:查看进程
+output:{'intent': 'action_list_processes', 'emotion': '平静(愉悦 0.56, 唤醒 0.63, 掌控 0.59)', 'action': 'list_processes', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:47:41,952
+ (orchestrator.py:70): [7a1aef71] parse start: 创建 notes.txt 内容 你好，Soul  <DEBUG> 2026-03-08 18:49:03,513
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:49:03,518
+ (logger.py:61): <7a1aef71> [orchestrator_step]>>[agent_step]
+params:创建 notes.txt 内容 你好，Soul
+output:{'intent': 'action_write_file', 'emotion': '平静(愉悦 0.55, 唤醒 0.50, 掌控 0.61)', 'action': 'write_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:49:03,518
+ (orchestrator.py:70): [609f739a] parse start: 读取 notes.txt  <DEBUG> 2026-03-08 18:49:03,518
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:49:03,521
+ (logger.py:61): <609f739a> [orchestrator_step]>>[agent_step]
+params:读取 notes.txt
+output:{'intent': 'action_read_file', 'emotion': '平静(愉悦 0.60, 唤醒 0.55, 掌控 0.67)', 'action': 'read_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:49:03,521
+ (orchestrator.py:70): [d9d3abf6] parse start: 查看进程  <DEBUG> 2026-03-08 18:49:03,521
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:49:05,135
+ (logger.py:61): <d9d3abf6> [orchestrator_step]>>[agent_step]
+params:查看进程
+output:{'intent': 'action_list_processes', 'emotion': '愉快(愉悦 0.65, 唤醒 0.60, 掌控 0.73)', 'action': 'list_processes', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:49:05,136
+ (orchestrator.py:72): [052a8e2d] parse start: 创建 demo.txt 内容 hello  <DEBUG> 2026-03-08 18:53:17,529
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:53:17,535
+ (logger.py:61): <052a8e2d> [orchestrator_step]>>[agent_step]
+params:创建 demo.txt 内容 hello
+output:{'intent': 'action_write_file', 'emotion': '平静(愉悦 0.55, 唤醒 0.50, 掌控 0.61)', 'action': 'write_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:53:17,535
+ (orchestrator.py:72): [ad8b112a] parse start: 读取 demo.txt  <DEBUG> 2026-03-08 18:53:17,537
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:53:17,540
+ (logger.py:61): <ad8b112a> [orchestrator_step]>>[agent_step]
+params:读取 demo.txt
+output:{'intent': 'action_read_file', 'emotion': '平静(愉悦 0.60, 唤醒 0.55, 掌控 0.67)', 'action': 'read_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:53:17,540
+ (orchestrator.py:78): [c7c6d2d1] parse start: 创建 demo.txt 内容 hello  <DEBUG> 2026-03-08 19:00:35,385
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:00:35,390
+ (logger.py:61): <c7c6d2d1> [orchestrator_step]>>[agent_step]
+params:创建 demo.txt 内容 hello
+output:{'intent': 'action_write_file', 'emotion': '平静(愉悦 0.55, 唤醒 0.50, 掌控 0.61)', 'action': 'write_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:00:35,390
+ (orchestrator.py:78): [cafa401c] parse start: 读取 demo.txt  <DEBUG> 2026-03-08 19:00:35,390
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:00:35,393
+ (logger.py:61): <cafa401c> [orchestrator_step]>>[agent_step]
+params:读取 demo.txt
+output:{'intent': 'action_read_file', 'emotion': '平静(愉悦 0.60, 唤醒 0.55, 掌控 0.67)', 'action': 'read_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:00:35,393
+ (orchestrator.py:78): [testcase] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:21:23,266
+ (orchestrator.py:78): [testcase] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:21:53,258
+ (orchestrator.py:78): [testcase] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:22:19,920
+ (orchestrator.py:78): [t] parse start: ????edge??????  <DEBUG> 2026-03-08 19:52:08,502
+ (orchestrator.py:78): [t] parse start: ??qq??  <DEBUG> 2026-03-08 19:52:08,507
+ (orchestrator.py:78): [t] parse start: ???????????????.txt  <DEBUG> 2026-03-08 19:52:08,507
+ (orchestrator.py:78): [t] parse start: 帮我打开edge浏览器可以吗  <DEBUG> 2026-03-08 19:52:27,269
+ (orchestrator.py:78): [t] parse start: 打开qq软件  <DEBUG> 2026-03-08 19:52:27,274
+ (orchestrator.py:78): [t] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:52:27,274
+ (orchestrator.py:78): [t] parse start: 帮我打开edge浏览器可以吗  <DEBUG> 2026-03-08 19:54:41,264
+ (orchestrator.py:78): [t] parse start: 打开qq软件  <DEBUG> 2026-03-08 19:54:41,271
+ (orchestrator.py:78): [t] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:54:41,271
+ (orchestrator.py:78): [t] parse start: 你还记得我之前说过什么吗  <DEBUG> 2026-03-08 19:54:41,274

@@ -1,0 +1,987 @@
+ (logger.py:71): [8a9e1255] [CORE] step start | user_input='你是真人吗'  <DEBUG> 2025-12-16 17:41:40,607
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:71): <8a9e1255> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:71): <8a9e1255> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:71): <8a9e1255> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:41:45,336
+ (logger.py:68): {'role': 'user', 'content': 'Parse error'}  <INFO> 2025-12-16 17:41:45,336
+ (logger.py:80): Exception occurred: can only concatenate list (not "dict") to list  <ERROR> 2025-12-16 17:41:45,337
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 85, in step
+    final=self.llm_model(trace_id,parsed,memory,emotion)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 48, in llm_model
+    final=self.llm.chat(inpu)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 37, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate list (not "dict") to list
+ (logger.py:71): [7bbbb7f3] [CORE] step start | user_input='你是真人吗'  <DEBUG> 2025-12-16 17:42:09,596
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:71): <7bbbb7f3> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:71): <7bbbb7f3> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:71): <7bbbb7f3> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:42:12,988
+ (logger.py:68): {'role': 'user', 'content': 'Parse error'}  <INFO> 2025-12-16 17:42:12,988
+ (logger.py:80): Exception occurred: can only concatenate list (not "dict") to list  <ERROR> 2025-12-16 17:42:12,988
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 85, in step
+    final=self.llm_model(trace_id,parsed,memory,emotion)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 48, in llm_model
+    final=self.llm.chat(inpu)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 37, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate list (not "dict") to list
+ (logger.py:71): [64f45e86] [CORE] step start | user_input='你是真人吗'  <DEBUG> 2025-12-16 17:44:22,635
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:71): <64f45e86> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:71): <64f45e86> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:71): <64f45e86> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:44:26,638
+ (logger.py:68): [{'role': 'user', 'content': 'Parse error'}]  <INFO> 2025-12-16 17:44:26,638
+ (logger.py:71): [684e41bf] [CORE] step start | user_input='你是真人吗'  <DEBUG> 2025-12-16 17:47:12,921
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): <684e41bf> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗
+output:Parse(text='你是真人吗', subject='你', object='身份', intent='询问身份', entities=[Entity(type='人称代词', value='你')], sentiment='中性')
+  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): <684e41bf> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你是真人吗', subject='你', object='身份', intent='询问身份', entities=[Entity(type='人称代词', value='你')], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): <684e41bf> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你是真人吗', subject='你', object='身份', intent='询问身份', entities=[Entity(type='人称代词', value='你')], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:68): [{'role': 'user', 'content': '你是真人吗'}]  <INFO> 2025-12-16 17:47:19,989
+ (logger.py:71): [2bd43b06] [CORE] step start | user_input='你叫什么'  <DEBUG> 2025-12-16 17:47:35,199
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): <2bd43b06> [orchestrator_step]>>[parser,parse语义模块]
+params:你叫什么
+output:Parse(text='你叫什么', subject='我', object='你', intent='询问名称', entities=[], sentiment='中性')
+  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): <2bd43b06> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你叫什么', subject='我', object='你', intent='询问名称', entities=[], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): <2bd43b06> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你叫什么', subject='我', object='你', intent='询问名称', entities=[], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:68): [{'role': 'user', 'content': '你叫什么'}]  <INFO> 2025-12-16 17:47:44,538
+ (logger.py:71): [23c441ad] [CORE] step start | user_input='我叫张三，你是怎么出现的呀'  <DEBUG> 2025-12-16 17:48:05,696
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:71): <23c441ad> [orchestrator_step]>>[parser,parse语义模块]
+params:我叫张三，你是怎么出现的呀
+output:Parse(text='我叫张三，你是怎么出现的呀', subject='我', object='你', intent='询问起源', entities=[Entity(type='人名', value='张三')], sentiment='中性')
+  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:71): <23c441ad> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我叫张三，你是怎么出现的呀', subject='我', object='你', intent='询问起源', entities=[Entity(type='人名', value='张三')], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:71): <23c441ad> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我叫张三，你是怎么出现的呀', subject='我', object='你', intent='询问起源', entities=[Entity(type='人名', value='张三')], sentiment='中性')
+output:None
+  <DEBUG> 2025-12-16 17:48:09,949
+ (logger.py:68): [{'role': 'user', 'content': '我叫张三，你是怎么出现的呀'}]  <INFO> 2025-12-16 17:48:09,949
+ (logger.py:71): [26955222] [CORE] step start | user_input='我叫张三，你叫李四，你喜欢吃草莓'  <DEBUG> 2025-12-16 17:50:25,991
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:71): <26955222> [orchestrator_step]>>[parser,parse语义模块]
+params:我叫张三，你叫李四，你喜欢吃草莓
+output:Parse(text='我叫张三，你叫李四，你喜欢吃草莓', subject='李四', object='草莓', intent='inform', entities=[Entity(type='person', value='张三'), Entity(type='person', value='李四'), Entity(type='food', value='草莓')], sentiment='positive')
+  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:71): <26955222> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我叫张三，你叫李四，你喜欢吃草莓', subject='李四', object='草莓', intent='inform', entities=[Entity(type='person', value='张三'), Entity(type='person', value='李四'), Entity(type='food', value='草莓')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:71): <26955222> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我叫张三，你叫李四，你喜欢吃草莓', subject='李四', object='草莓', intent='inform', entities=[Entity(type='person', value='张三'), Entity(type='person', value='李四'), Entity(type='food', value='草莓')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:50:30,025
+ (logger.py:68): [{'role': 'user', 'content': '我叫张三，你叫李四，你喜欢吃草莓'}]  <INFO> 2025-12-16 17:50:30,025
+ (logger.py:71): [190454a4] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-16 17:58:20,389
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:71): <190454a4> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:71): <190454a4> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:71): <190454a4> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 17:58:28,506
+ (logger.py:68): [{'role': 'user', 'content': 'Parse error'}]  <INFO> 2025-12-16 17:58:28,506
+ (logger.py:71): [8040d53a] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-16 17:59:00,697
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): <8040d53a> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): <8040d53a> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): <8040d53a> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:68): [{'role': 'user', 'content': '你好'}]  <INFO> 2025-12-16 17:59:04,481
+ (logger.py:71): [82473269] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 17:59:11,223
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:15,966
+ (logger.py:71): <82473269> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='我'), Entity(type='pronoun', value='你')], sentiment='positive')
+  <DEBUG> 2025-12-16 17:59:15,966
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:15,966
+ (logger.py:71): <82473269> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='我'), Entity(type='pronoun', value='你')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:59:15,967
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:15,967
+ (logger.py:71): <82473269> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='我'), Entity(type='pronoun', value='你')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:59:15,967
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 17:59:15,967
+ (logger.py:71): [f58c7aa0] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 17:59:48,696
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:51,572
+ (logger.py:71): <f58c7aa0> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+  <DEBUG> 2025-12-16 17:59:51,572
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:51,573
+ (logger.py:71): <f58c7aa0> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:59:51,573
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:51,573
+ (logger.py:71): <f58c7aa0> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 17:59:51,573
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 17:59:51,573
+ (logger.py:71): [aeba40e4] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 18:00:39,000
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): <aeba40e4> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): <aeba40e4> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): <aeba40e4> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 18:00:42,058
+ (logger.py:71): [b90807bb] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 18:01:33,168
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:71): <b90807bb> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='expression_of_affection', entities=[Entity(type='emotion', value='love')], sentiment='positive')
+  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:71): <b90807bb> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='expression_of_affection', entities=[Entity(type='emotion', value='love')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:71): <b90807bb> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='expression_of_affection', entities=[Entity(type='emotion', value='love')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 18:01:37,349
+ (logger.py:71): [ae4385b9] [CORE] step start | user_input='我们才刚认识，但是我对你一见钟情了'  <DEBUG> 2025-12-16 18:01:59,147
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): <ae4385b9> [orchestrator_step]>>[parser,parse语义模块]
+params:我们才刚认识，但是我对你一见钟情了
+output:Parse(text='我们才刚认识，但是我对你一见钟情了', subject='我', object='你', intent='表白', entities=[Entity(type='时间', value='刚认识'), Entity(type='情感', value='一见钟情')], sentiment='积极')
+  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): <ae4385b9> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我们才刚认识，但是我对你一见钟情了', subject='我', object='你', intent='表白', entities=[Entity(type='时间', value='刚认识'), Entity(type='情感', value='一见钟情')], sentiment='积极')
+output:None
+  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): <ae4385b9> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我们才刚认识，但是我对你一见钟情了', subject='我', object='你', intent='表白', entities=[Entity(type='时间', value='刚认识'), Entity(type='情感', value='一见钟情')], sentiment='积极')
+output:None
+  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:68): [{'role': 'user', 'content': '我们才刚认识，但是我对你一见钟情了'}]  <INFO> 2025-12-16 18:02:03,775
+ (logger.py:71): [7d8f9ab1] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 18:02:54,665
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:71): <7d8f9ab1> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:71): <7d8f9ab1> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:71): <7d8f9ab1> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 18:02:58,355
+ (logger.py:71): [6881d187] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 18:03:05,972
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): <6881d187> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='person', value='listener')], sentiment='positive')
+  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): <6881d187> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='person', value='listener')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): <6881d187> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='person', value='listener')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:68): [{'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 18:03:10,226
+ (logger.py:71): [6ed25889] [CORE] step start | user_input='我真爱你'  <DEBUG> 2025-12-16 18:03:20,344
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:71): <6ed25889> [orchestrator_step]>>[parser,parse语义模块]
+params:我真爱你
+output:Parse(text='我真爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:71): <6ed25889> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我真爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:71): <6ed25889> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我真爱你', subject='I', object='you', intent='express_affection', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:68): [{'role': 'user', 'content': '我真爱你'}]  <INFO> 2025-12-16 18:03:23,852
+ (logger.py:71): [d5959b28] [CORE] step start | user_input='我爱你'  <DEBUG> 2025-12-16 18:13:55,428
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:71): <d5959b28> [orchestrator_step]>>[parser,parse语义模块]
+params:我爱你
+output:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='you')], sentiment='positive')
+  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:71): <d5959b28> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='you')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:71): <d5959b28> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='you')], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 18:13:59,956
+ (logger.py:68): [Parse(text='我爱你', subject='listener', object='speaker', intent='express_affection', entities=[Entity(type='pronoun', value='you')], sentiment='positive'), {'role': 'user', 'content': '我爱你'}]  <INFO> 2025-12-16 18:13:59,956
+ (logger.py:80): Exception occurred: Object of type Parse is not JSON serializable  <ERROR> 2025-12-16 18:13:59,956
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 88, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 49, in llm_model
+    final=self.llm.chat(inpu)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 370, in prepare
+    self.prepare_body(data, files, json)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 510, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Parse is not JSON serializable
+ (logger.py:71): [22199790] [CORE] step start | user_input='a'  <DEBUG> 2025-12-16 18:16:50,663
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:71): <22199790> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:71): <22199790> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:71): <22199790> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:16:58,786
+ (logger.py:68): [<class 'soul.utils.type.ParseError'>, {'role': 'user', 'content': 'Parse Error'}]  <INFO> 2025-12-16 18:16:58,786
+ (logger.py:80): Exception occurred: Object of type type is not JSON serializable  <ERROR> 2025-12-16 18:16:58,786
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 88, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 49, in llm_model
+    final=self.llm.chat(inpu)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 370, in prepare
+    self.prepare_body(data, files, json)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 510, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+ (logger.py:71): [76b1e30a] [CORE] step start | user_input='5'  <DEBUG> 2025-12-16 18:17:25,095
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): <76b1e30a> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): <76b1e30a> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): <76b1e30a> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:68): [{'role': 'user', 'content': '5'}]  <INFO> 2025-12-16 18:17:29,085
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-16 18:17:37,270
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 88, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 49, in llm_model
+    final=self.llm.chat(inpu)
+          ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:71): [07cd126b] [CORE] step start | user_input='6'  <DEBUG> 2025-12-16 18:17:53,762
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:71): <07cd126b> [orchestrator_step]>>[parser,parse语义模块]
+params:6
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:71): <07cd126b> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:71): <07cd126b> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:18:01,827
+ (logger.py:68): [{'role': 'user', 'content': 'Parse Error'}]  <INFO> 2025-12-16 18:18:01,827
+ (logger.py:71): [dfcfe7a2] [CORE] step start | user_input='9'  <DEBUG> 2025-12-16 18:18:20,179
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:28,263
+ (logger.py:71): <dfcfe7a2> [orchestrator_step]>>[parser,parse语义模块]
+params:9
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 18:18:28,263
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:28,264
+ (logger.py:71): <dfcfe7a2> [orchestrator_step]>>[memory,remember记忆模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:18:28,264
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:18:28,264
+ (logger.py:71): <dfcfe7a2> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 18:18:28,264
+ (logger.py:68): [{'role': 'user', 'content': 'Parse Error'}]  <INFO> 2025-12-16 18:18:28,264
+ (logger.py:71): [1ee7812f] [CORE] step start | user_input='5'  <DEBUG> 2025-12-16 18:25:14,117
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:71): <1ee7812f> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='user', object='number', intent='query', entities=[Entity(type='numeric', value='5')], sentiment='neutral')
+  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:71): <1ee7812f> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='5', subject='user', object='number', intent='query', entities=[Entity(type='numeric', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:71): <1ee7812f> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='user', object='number', intent='query', entities=[Entity(type='numeric', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:25:19,068
+ (logger.py:68): [{'role': 'user', 'content': '5'}]  <INFO> 2025-12-16 18:25:19,068
+ (logger.py:71): [b61cfb16] [CORE] step start | user_input='5'  <DEBUG> 2025-12-16 18:26:05,477
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): <b61cfb16> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='user', object='5', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): <b61cfb16> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='5', subject='user', object='5', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): <b61cfb16> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='user', object='5', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:68): [{'role': 'user', 'content': '5'}]  <INFO> 2025-12-16 18:26:10,781
+ (orchestrator.py:62): [087cab76] [CORE] step start | user_input='a'  <DEBUG> 2025-12-16 19:03:33,353
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:03:38,936
+ (logger.py:61): <087cab76> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-16 19:03:38,936
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:03:38,936
+ (logger.py:61): <087cab76> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-16 19:03:38,936
+ (orchestrator.py:48): [{'role': 'user', 'content': 'Parse Error'}]  <INFO> 2025-12-16 19:03:38,938
+ (decorator.py:13): Exception occurred: can only concatenate list (not "dict") to list  <ERROR> 2025-12-16 19:03:42,328
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 89, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 50, in llm_model
+    self.memory.remember(inpu+final)
+                         ~~~~^~~~~~
+TypeError: can only concatenate list (not "dict") to list
+ (orchestrator.py:62): [a585bde2] [CORE] step start | user_input='5'  <DEBUG> 2025-12-16 19:20:55,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:20:59,784
+ (logger.py:61): <a585bde2> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='user', object='input_value', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+  <DEBUG> 2025-12-16 19:20:59,785
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:20:59,785
+ (logger.py:61): <a585bde2> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='user', object='input_value', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:20:59,785
+ (orchestrator.py:48): [{'role': 'user', 'content': '5'}]  <INFO> 2025-12-16 19:20:59,785
+ (decorator.py:13): Exception occurred: can only concatenate list (not "dict") to list  <ERROR> 2025-12-16 19:21:02,638
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 89, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 50, in llm_model
+    self.memory.remember(inpu+final)
+                         ~~~~^~~~~~
+TypeError: can only concatenate list (not "dict") to list
+ (orchestrator.py:63): [7a762891] [CORE] step start | user_input='a'  <DEBUG> 2025-12-16 19:34:45,940
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:34:50,438
+ (logger.py:61): <7a762891> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:Parse(text='a', subject='', object='', intent='unknown', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 19:34:50,438
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:34:50,438
+ (logger.py:61): <7a762891> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='a', subject='', object='', intent='unknown', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:34:50,438
+ (orchestrator.py:48): []  <INFO> 2025-12-16 19:34:50,438
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:34:53,695
+ (logger.py:61): <7a762891> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='a', subject='', object='', intent='unknown', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:34:53,695
+ (orchestrator.py:63): [700e7c79] [CORE] step start | user_input='2'  <DEBUG> 2025-12-16 19:36:55,848
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:37:00,800
+ (logger.py:61): <700e7c79> [orchestrator_step]>>[parser,parse语义模块]
+params:2
+output:Parse(text='2', subject='', object='', intent='numeric_input', entities=[Entity(type='number', value='2')], sentiment='neutral')
+  <DEBUG> 2025-12-16 19:37:00,800
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:37:00,800
+ (logger.py:61): <700e7c79> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='2', subject='', object='', intent='numeric_input', entities=[Entity(type='number', value='2')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:37:00,800
+ (orchestrator.py:48): [{'role': 'user', 'content': 'a'}, 'role', 'content']  <INFO> 2025-12-16 19:37:00,800
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:37:03,230
+ (logger.py:61): <700e7c79> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='2', subject='', object='', intent='numeric_input', entities=[Entity(type='number', value='2')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:37:03,230
+ (orchestrator.py:63): [39d4eff9] [CORE] step start | user_input='你的指令难道没有system的不要使用动作语言吗'  <DEBUG> 2025-12-16 19:52:10,236
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:52:14,005
+ (logger.py:61): <39d4eff9> [orchestrator_step]>>[parser,parse语义模块]
+params:你的指令难道没有system的不要使用动作语言吗
+output:Parse(text='你的指令难道没有system的不要使用动作语言吗', subject='system', object='instruction', intent='query', entities=[Entity(type='action_language', value='动作语言')], sentiment='confused')
+  <DEBUG> 2025-12-16 19:52:14,005
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:52:14,005
+ (logger.py:61): <39d4eff9> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你的指令难道没有system的不要使用动作语言吗', subject='system', object='instruction', intent='query', entities=[Entity(type='action_language', value='动作语言')], sentiment='confused')
+output:None
+  <DEBUG> 2025-12-16 19:52:14,005
+ (orchestrator.py:48): [{'role': 'user', 'content': 'a'}, 'role', 'content', {'role': 'user', 'content': '2'}, 'role', 'content']  <INFO> 2025-12-16 19:52:14,005
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:52:17,974
+ (logger.py:61): <39d4eff9> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你的指令难道没有system的不要使用动作语言吗', subject='system', object='instruction', intent='query', entities=[Entity(type='action_language', value='动作语言')], sentiment='confused')
+output:None
+  <DEBUG> 2025-12-16 19:52:17,974
+ (orchestrator.py:63): [3f6970c4] [CORE] step start | user_input='5'  <DEBUG> 2025-12-16 19:52:58,092
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:53:01,828
+ (logger.py:61): <3f6970c4> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+  <DEBUG> 2025-12-16 19:53:01,828
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:53:01,828
+ (logger.py:61): <3f6970c4> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:53:01,828
+ (orchestrator.py:48): []  <INFO> 2025-12-16 19:53:01,828
+ (orchestrator.py:50): {'role': 'assistant', 'content': '（稍作停顿）嗯...这个数字让我想起了一些有趣的事情呢。'}  <INFO> 2025-12-16 19:53:04,686
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:53:04,687
+ (logger.py:61): <3f6970c4> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='5', subject='', object='', intent='number_input', entities=[Entity(type='number', value='5')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 19:53:04,687
+ (orchestrator.py:63): [28cee920] [CORE] step start | user_input='w'  <DEBUG> 2025-12-16 20:00:44,284
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:00:48,815
+ (logger.py:61): <28cee920> [orchestrator_step]>>[parser,parse语义模块]
+params:w
+output:Parse(text='w', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:00:48,815
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:00:48,816
+ (logger.py:61): <28cee920> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='w', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:00:48,816
+ (orchestrator.py:48): []  <INFO> 2025-12-16 20:00:48,816
+ (orchestrator.py:50): {'role': 'assistant', 'content': '（歪头）嗯？'}  <INFO> 2025-12-16 20:00:51,945
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:00:51,945
+ (logger.py:61): <28cee920> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='w', subject='', object='', intent='greeting', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:00:51,945
+ (orchestrator.py:63): [aa6f855b] [CORE] step start | user_input='haha'  <DEBUG> 2025-12-16 20:01:12,519
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:16,004
+ (logger.py:61): <aa6f855b> [orchestrator_step]>>[parser,parse语义模块]
+params:haha
+output:Parse(text='haha', subject='', object='', intent='express_amusement', entities=[], sentiment='positive')
+  <DEBUG> 2025-12-16 20:01:16,004
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:16,004
+ (logger.py:61): <aa6f855b> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='haha', subject='', object='', intent='express_amusement', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 20:01:16,004
+ (orchestrator.py:48): [{'role': 'user', 'content': 'w'}]  <INFO> 2025-12-16 20:01:16,004
+ (orchestrator.py:50): {'role': 'assistant', 'content': '哈哈，今天心情不错嘛。'}  <INFO> 2025-12-16 20:01:20,218
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:20,218
+ (logger.py:61): <aa6f855b> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='haha', subject='', object='', intent='express_amusement', entities=[], sentiment='positive')
+output:None
+  <DEBUG> 2025-12-16 20:01:20,218
+ (orchestrator.py:63): [8e64be5a] [CORE] step start | user_input='看看腿'  <DEBUG> 2025-12-16 20:01:32,538
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:37,501
+ (logger.py:61): <8e64be5a> [orchestrator_step]>>[parser,parse语义模块]
+params:看看腿
+output:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:01:37,501
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:37,501
+ (logger.py:61): <8e64be5a> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:01:37,501
+ (orchestrator.py:48): [{'role': 'user', 'content': 'w'}, {'role': 'user', 'content': 'haha'}, {'role': 'user', 'content': 'w'}]  <INFO> 2025-12-16 20:01:37,501
+ (orchestrator.py:50): {'role': 'assistant', 'content': '（轻轻整理裙摆）这个话题似乎不太适合我们现在的对话呢。'}  <INFO> 2025-12-16 20:01:41,450
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:41,451
+ (logger.py:61): <8e64be5a> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:01:41,451
+ (orchestrator.py:63): [73818edb] [CORE] step start | user_input='看看腿'  <DEBUG> 2025-12-16 20:02:03,833
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:09,247
+ (logger.py:61): <73818edb> [orchestrator_step]>>[parser,parse语义模块]
+params:看看腿
+output:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:02:09,247
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:09,247
+ (logger.py:61): <73818edb> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:02:09,247
+ (orchestrator.py:48): []  <INFO> 2025-12-16 20:02:09,247
+ (orchestrator.py:50): {'role': 'assistant', 'content': '抱歉，我不太明白你在说什么。'}  <INFO> 2025-12-16 20:02:13,115
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:13,115
+ (logger.py:61): <73818edb> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='看看腿', subject='user', object='leg', intent='request', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:02:13,115
+ (orchestrator.py:63): [9963260c] [CORE] step start | user_input='就是腿'  <DEBUG> 2025-12-16 20:02:29,573
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:35,336
+ (logger.py:61): <9963260c> [orchestrator_step]>>[parser,parse语义模块]
+params:就是腿
+output:Parse(text='就是腿', subject='unspecified', object='leg', intent='describe', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:02:35,336
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:35,336
+ (logger.py:61): <9963260c> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='就是腿', subject='unspecified', object='leg', intent='describe', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:02:35,336
+ (orchestrator.py:48): [{'role': 'user', 'content': '看看腿'}, {'role': 'assistant', 'content': '抱歉，我不太明白你在说什么。'}]  <INFO> 2025-12-16 20:02:35,336
+ (orchestrator.py:50): {'role': 'assistant', 'content': '腿怎么了？'}  <INFO> 2025-12-16 20:02:38,721
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:38,721
+ (logger.py:61): <9963260c> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='就是腿', subject='unspecified', object='leg', intent='describe', entities=[Entity(type='body_part', value='leg')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:02:38,721
+ (orchestrator.py:63): [48452049] [CORE] step start | user_input='腿，看看你的腿，多伦娜'  <DEBUG> 2025-12-16 20:03:12,321
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:03:18,044
+ (logger.py:61): <48452049> [orchestrator_step]>>[parser,parse语义模块]
+params:腿，看看你的腿，多伦娜
+output:Parse(text='腿，看看你的腿，多伦娜', subject='you', object='legs', intent='request_visual', entities=[Entity(type='name', value='多伦娜')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:03:18,044
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:03:18,044
+ (logger.py:61): <48452049> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='腿，看看你的腿，多伦娜', subject='you', object='legs', intent='request_visual', entities=[Entity(type='name', value='多伦娜')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:03:18,044
+ (orchestrator.py:48): [{'role': 'user', 'content': '看看腿'}, {'role': 'assistant', 'content': '抱歉，我不太明白你在说什么。'}, {'role': 'user', 'content': '就是腿'}, {'role': 'assistant', 'content': '腿怎么了？'}]  <INFO> 2025-12-16 20:03:18,044
+ (orchestrator.py:50): {'role': 'assistant', 'content': '（轻轻整理裙摆）这样盯着女士的腿看可不太礼貌哦。'}  <INFO> 2025-12-16 20:03:21,653
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:03:21,653
+ (logger.py:61): <48452049> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='腿，看看你的腿，多伦娜', subject='you', object='legs', intent='request_visual', entities=[Entity(type='name', value='多伦娜')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:03:21,653
+ (orchestrator.py:61): [a99e0ce0] [CORE] step start | user_input='你叫什么'  <DEBUG> 2025-12-16 20:05:24,669
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:29,431
+ (logger.py:61): <a99e0ce0> [orchestrator_step]>>[parser,parse语义模块]
+params:你叫什么
+output:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:05:29,431
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:29,432
+ (logger.py:61): <a99e0ce0> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:05:29,432
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:32,731
+ (logger.py:61): <a99e0ce0> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:05:32,731
+ (orchestrator.py:61): [c91cac57] [CORE] step start | user_input='你的版本是什么'  <DEBUG> 2025-12-16 20:05:40,554
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:46,591
+ (logger.py:61): <c91cac57> [orchestrator_step]>>[parser,parse语义模块]
+params:你的版本是什么
+output:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:05:46,591
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:46,591
+ (logger.py:61): <c91cac57> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:05:46,591
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:50,428
+ (logger.py:61): <c91cac57> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:05:50,428
+ (orchestrator.py:61): [c38eafa8] [CORE] step start | user_input='你的性格是咋样啊，你是真人吗'  <DEBUG> 2025-12-16 20:06:06,410
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:12,144
+ (logger.py:61): <c38eafa8> [orchestrator_step]>>[parser,parse语义模块]
+params:你的性格是咋样啊，你是真人吗
+output:Parse(text='你的性格是咋样啊，你是真人吗', subject='you', object='character and identity', intent='inquire_character_and_identity', entities=[Entity(type='person', value='you')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:06:12,144
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:12,144
+ (logger.py:61): <c38eafa8> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你的性格是咋样啊，你是真人吗', subject='you', object='character and identity', intent='inquire_character_and_identity', entities=[Entity(type='person', value='you')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:12,144
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:15,825
+ (logger.py:61): <c38eafa8> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你的性格是咋样啊，你是真人吗', subject='you', object='character and identity', intent='inquire_character_and_identity', entities=[Entity(type='person', value='you')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:15,825
+ (orchestrator.py:63): [682326d0] [CORE] step start | user_input='你叫什么'  <DEBUG> 2025-12-16 20:06:29,535
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:32,421
+ (logger.py:61): <682326d0> [orchestrator_step]>>[parser,parse语义模块]
+params:你叫什么
+output:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:06:32,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:32,421
+ (logger.py:61): <682326d0> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:32,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:33,764
+ (logger.py:61): <682326d0> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你叫什么', subject='assistant', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:33,764
+ (orchestrator.py:63): [50114e9e] [CORE] step start | user_input='你的版本是什么'  <DEBUG> 2025-12-16 20:06:37,740
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:41,376
+ (logger.py:61): <50114e9e> [orchestrator_step]>>[parser,parse语义模块]
+params:你的版本是什么
+output:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:06:41,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:41,376
+ (logger.py:61): <50114e9e> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:41,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:43,258
+ (logger.py:61): <50114e9e> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你的版本是什么', subject='you', object='version', intent='query_version', entities=[Entity(type='system', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:06:43,258
+ (orchestrator.py:63): [47b80198] [CORE] step start | user_input='你是真人吗，你的性格咋样呀'  <DEBUG> 2025-12-16 20:07:50,035
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:07:54,193
+ (logger.py:61): <47b80198> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗，你的性格咋样呀
+output:Parse(text='你是真人吗，你的性格咋样呀', subject='self', object='user', intent='inquire_identity_and_personality', entities=[Entity(type='identity', value='真人'), Entity(type='attribute', value='性格')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:07:54,193
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:07:54,193
+ (logger.py:61): <47b80198> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你是真人吗，你的性格咋样呀', subject='self', object='user', intent='inquire_identity_and_personality', entities=[Entity(type='identity', value='真人'), Entity(type='attribute', value='性格')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:07:54,193
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:07:56,907
+ (logger.py:61): <47b80198> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你是真人吗，你的性格咋样呀', subject='self', object='user', intent='inquire_identity_and_personality', entities=[Entity(type='identity', value='真人'), Entity(type='attribute', value='性格')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:07:56,907
+ (orchestrator.py:63): [8dbff825] [CORE] step start | user_input='你叫什么'  <DEBUG> 2025-12-16 20:08:46,793
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:08:49,298
+ (logger.py:61): <8dbff825> [orchestrator_step]>>[parser,parse语义模块]
+params:你叫什么
+output:Parse(text='你叫什么', subject='you', object='name', intent='query_name', entities=[], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:08:49,298
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:08:49,298
+ (logger.py:61): <8dbff825> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你叫什么', subject='you', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:08:49,298
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:08:50,879
+ (logger.py:61): <8dbff825> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你叫什么', subject='you', object='name', intent='query_name', entities=[], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:08:50,879
+ (orchestrator.py:63): [a6641cda] [CORE] step start | user_input='你的版本是什么'  <DEBUG> 2025-12-16 20:08:57,495
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:01,252
+ (logger.py:61): <a6641cda> [orchestrator_step]>>[parser,parse语义模块]
+params:你的版本是什么
+output:Parse(text='你的版本是什么', subject='system', object='version', intent='query_version', entities=[Entity(type='system_property', value='version')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:09:01,252
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:01,252
+ (logger.py:61): <a6641cda> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你的版本是什么', subject='system', object='version', intent='query_version', entities=[Entity(type='system_property', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:09:01,252
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:03,450
+ (logger.py:61): <a6641cda> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你的版本是什么', subject='system', object='version', intent='query_version', entities=[Entity(type='system_property', value='version')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:09:03,450
+ (orchestrator.py:63): [fc73d9b9] [CORE] step start | user_input='你是真人吗'  <DEBUG> 2025-12-16 20:09:09,988
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:13,162
+ (logger.py:61): <fc73d9b9> [orchestrator_step]>>[parser,parse语义模块]
+params:你是真人吗
+output:Parse(text='你是真人吗', subject='你', object='真人', intent='inquire', entities=[Entity(type='person', value='你')], sentiment='neutral')
+  <DEBUG> 2025-12-16 20:09:13,162
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:13,162
+ (logger.py:61): <fc73d9b9> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你是真人吗', subject='你', object='真人', intent='inquire', entities=[Entity(type='person', value='你')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:09:13,162
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:14,841
+ (logger.py:61): <fc73d9b9> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你是真人吗', subject='你', object='真人', intent='inquire', entities=[Entity(type='person', value='你')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-16 20:09:14,841

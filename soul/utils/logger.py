@@ -65,19 +65,19 @@ class Logger:
         self.debug(text)
 
     def info(self,text):
-        self.logger.info(text)
+        self.logger.info(text,stacklevel=2)
 
     def debug(self,text):
-        self.logger.debug(text)
+        self.logger.debug(text,stacklevel=2)
 
     def warning(self,text):
-        self.logger.warning(text)
+        self.logger.warning(text,stacklevel=2)
 
     def error(self,text):
-        self.logger.error(text)
+        self.logger.error(text,stacklevel=2)
 
     def exception(self,text):
-        self.logger.exception(text)
+        self.logger.exception(text,stacklevel=2)
 
     def orchestrator_step(self,trace_id:uuid,
                           process:str,
@@ -87,5 +87,5 @@ class Logger:
         self.start_debug(
             f"<{trace_id}> [orchestrator_step]>>[{process}]\n"
             f"params:{params}\n"
-            f"output:{output}\n"
+            f"output:{output}\n",
         )

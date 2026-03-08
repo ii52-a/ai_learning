@@ -1,0 +1,150 @@
+ (orchestrator.py:64): [d7c907f3] parse start: whats you name?  <DEBUG> 2026-03-08 18:15:47,563
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:15:47,569
+ (logger.py:61): <d7c907f3> [orchestrator_step]>>[agent_step]
+params:whats you name?
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.51, 唤醒 0.45, 掌控 0.55)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:15:47,569
+ (orchestrator.py:64): [72e2b99e] parse start: whats the model you now?  <DEBUG> 2026-03-08 18:16:08,683
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:16:08,686
+ (logger.py:61): <72e2b99e> [orchestrator_step]>>[agent_step]
+params:whats the model you now?
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.53, 唤醒 0.45, 掌控 0.55)', 'action': 'none'}
+  <DEBUG> 2026-03-08 18:16:08,702
+ (orchestrator.py:73): [1cc7d213] parse start: whats your name  <DEBUG> 2026-03-08 18:34:40,205
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:34:45,683
+ (logger.py:61): <1cc7d213> [orchestrator_step]>>[agent_step]
+params:whats your name
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.51, 唤醒 0.45, 掌控 0.55)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:34:45,683
+ (orchestrator.py:73): [820730a1] parse start: 你多大了  <DEBUG> 2026-03-08 18:35:12,338
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:15,778
+ (logger.py:61): <820730a1> [orchestrator_step]>>[agent_step]
+params:你多大了
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.53, 唤醒 0.45, 掌控 0.56)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:15,779
+ (orchestrator.py:73): [cc554751] parse start: 可以帮我打开浏览器吗  <DEBUG> 2026-03-08 18:35:29,560
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:34,439
+ (logger.py:61): <cc554751> [orchestrator_step]>>[agent_step]
+params:可以帮我打开浏览器吗
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.49, 唤醒 0.52, 掌控 0.48)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:34,439
+ (orchestrator.py:73): [5dd3f04e] parse start: /window  <DEBUG> 2026-03-08 18:35:40,720
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:35:46,017
+ (logger.py:61): <5dd3f04e> [orchestrator_step]>>[agent_step]
+params:/window
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.51, 唤醒 0.49, 掌控 0.50)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:35:46,017
+ (orchestrator.py:73): [48c75091] parse start: 帮我创建一个txt文件  <DEBUG> 2026-03-08 18:36:19,122
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 18:36:24,361
+ (logger.py:61): <48c75091> [orchestrator_step]>>[agent_step]
+params:帮我创建一个txt文件
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.52, 唤醒 0.46, 掌控 0.53)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 18:36:24,361
+ (orchestrator.py:78): [f749568c] parse start: 你叫什么？  <DEBUG> 2026-03-08 19:07:29,842
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:07:32,943
+ (logger.py:61): <f749568c> [orchestrator_step]>>[agent_step]
+params:你叫什么？
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.52, 唤醒 0.45, 掌控 0.55)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:07:32,944
+ (orchestrator.py:78): [23fc4725] parse start: 为什么你会有版本，你是人工智能吗  <DEBUG> 2026-03-08 19:07:44,720
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:07:50,809
+ (logger.py:61): <23fc4725> [orchestrator_step]>>[agent_step]
+params:为什么你会有版本，你是人工智能吗
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.53, 唤醒 0.45, 掌控 0.56)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:07:50,809
+ (orchestrator.py:78): [dffb67d0] parse start: 你能介绍一下你自己吗  <DEBUG> 2026-03-08 19:08:07,257
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:08:12,560
+ (logger.py:61): <dffb67d0> [orchestrator_step]>>[agent_step]
+params:你能介绍一下你自己吗
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.53, 唤醒 0.45, 掌控 0.56)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:08:12,560
+ (orchestrator.py:78): [a28ec0ba] parse start: 帮我在桌面创建一个你的自我介绍.txt  <DEBUG> 2026-03-08 19:08:37,437
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:08:41,003
+ (logger.py:61): <a28ec0ba> [orchestrator_step]>>[agent_step]
+params:帮我在桌面创建一个你的自我介绍.txt
+output:{'intent': 'action_write_file', 'emotion': '平静(愉悦 0.57, 唤醒 0.50, 掌控 0.62)', 'action': 'write_file', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:08:41,003
+ (orchestrator.py:78): [1ed12960] parse start: 你能自我介绍一下吗  <DEBUG> 2026-03-08 19:32:32,881
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:32:55,826
+ (logger.py:61): <1ed12960> [orchestrator_step]>>[agent_step]
+params:你能自我介绍一下吗
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.55, 唤醒 0.45, 掌控 0.61)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:32:55,826
+ (orchestrator.py:78): [9c8c2163] parse start: 帮我在电脑桌面创建一份你的介绍好吗，我想认识一下你  <DEBUG> 2026-03-08 19:33:19,942
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:33:31,901
+ (logger.py:61): <9c8c2163> [orchestrator_step]>>[agent_step]
+params:帮我在电脑桌面创建一份你的介绍好吗，我想认识一下你
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.58, 唤醒 0.45, 掌控 0.64)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:33:31,902
+ (orchestrator.py:78): [a08a276f] parse start: 帮我打开edge浏览器可以吗  <DEBUG> 2026-03-08 19:34:18,265
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:34:24,620
+ (logger.py:61): <a08a276f> [orchestrator_step]>>[agent_step]
+params:帮我打开edge浏览器可以吗
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.50, 唤醒 0.52, 掌控 0.51)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:34:24,620
+ (orchestrator.py:78): [0e143378] parse start: 打开qq  <DEBUG> 2026-03-08 19:34:49,870
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:34:54,526
+ (logger.py:61): <0e143378> [orchestrator_step]>>[agent_step]
+params:打开qq
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.48, 唤醒 0.54, 掌控 0.46)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:34:54,526
+ (orchestrator.py:78): [d1e2ee42] parse start: 打开qq软件  <DEBUG> 2026-03-08 19:35:11,893
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 19:35:18,510
+ (logger.py:61): <d1e2ee42> [orchestrator_step]>>[agent_step]
+params:打开qq软件
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.46, 唤醒 0.55, 掌控 0.43)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 19:35:18,510
+ (orchestrator.py:78): [44a37ff4] parse start: 你好  <DEBUG> 2026-03-08 20:00:51,925
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:00:57,178
+ (logger.py:61): <44a37ff4> [orchestrator_step]>>[agent_step]
+params:你好
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.51, 唤醒 0.45, 掌控 0.55)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:00:57,178
+ (orchestrator.py:78): [54ba951c] parse start: 你为啥会有版本？  <DEBUG> 2026-03-08 20:01:55,105
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:02:00,393
+ (logger.py:61): <54ba951c> [orchestrator_step]>>[agent_step]
+params:你为啥会有版本？
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.53, 唤醒 0.45, 掌控 0.56)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:02:00,393
+ (orchestrator.py:78): [297da561] parse start: 你能帮我打开qq吗  <DEBUG> 2026-03-08 20:02:14,706
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:02:18,833
+ (logger.py:61): <297da561> [orchestrator_step]>>[agent_step]
+params:你能帮我打开qq吗
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.49, 唤醒 0.52, 掌控 0.49)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:02:18,833
+ (orchestrator.py:78): [3163057e] parse start: 当然  <DEBUG> 2026-03-08 20:02:31,339
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:02:41,175
+ (logger.py:61): <3163057e> [orchestrator_step]>>[agent_step]
+params:当然
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.55, 唤醒 0.48, 掌控 0.57)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:02:41,175
+ (orchestrator.py:78): [405d6cd7] parse start: 当日  <DEBUG> 2026-03-08 20:02:49,396
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:03:00,300
+ (logger.py:61): <405d6cd7> [orchestrator_step]>>[agent_step]
+params:当日
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.58, 唤醒 0.47, 掌控 0.62)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:03:00,300
+ (orchestrator.py:78): [b25aca5c] parse start: 当然  <DEBUG> 2026-03-08 20:03:00,300
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:03:04,253
+ (logger.py:61): <b25aca5c> [orchestrator_step]>>[agent_step]
+params:当然
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.58, 唤醒 0.47, 掌控 0.61)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:03:04,253
+ (orchestrator.py:78): [ad80be4e] parse start: d帮我打开qq  <DEBUG> 2026-03-08 20:03:12,310
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:03:15,976
+ (logger.py:61): <ad80be4e> [orchestrator_step]>>[agent_step]
+params:d帮我打开qq
+output:{'intent': 'action_open_app', 'emotion': '平静(愉悦 0.61, 唤醒 0.50, 掌控 0.66)', 'action': 'open_app', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:03:15,977
+ (orchestrator.py:78): [271b6b21] parse start: 你是多伦娜吗  <DEBUG> 2026-03-08 20:03:35,692
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:03:38,112
+ (logger.py:61): <271b6b21> [orchestrator_step]>>[agent_step]
+params:你是多伦娜吗
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.58, 唤醒 0.48, 掌控 0.62)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:03:38,112
+ (orchestrator.py:78): [0330f95e] parse start: 在电脑桌面创建一个你的简介  <DEBUG> 2026-03-08 20:03:51,801
+ (logger.py:60): start:====================  <DEBUG> 2026-03-08 20:04:07,603
+ (logger.py:61): <0330f95e> [orchestrator_step]>>[agent_step]
+params:在电脑桌面创建一个你的简介
+output:{'intent': 'chat', 'emotion': '平静(愉悦 0.59, 唤醒 0.46, 掌控 0.65)', 'action': 'none', 'model': 'deepseek:deepseek-chat'}
+  <DEBUG> 2026-03-08 20:04:07,603

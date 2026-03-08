@@ -1,0 +1,45 @@
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:40:50,261
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:43:12,606
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:44:11,377
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:47:27,825
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:47:51,462
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'

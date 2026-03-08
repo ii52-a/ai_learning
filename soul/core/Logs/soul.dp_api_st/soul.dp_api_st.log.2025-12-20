@@ -1,0 +1,9 @@
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-20 13:56:15,238
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 46, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'

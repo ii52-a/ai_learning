@@ -1,0 +1,499 @@
+ (orchestrator.py:63): [21ad8c6b] [CORE] step start | user_input='请对我撒娇'  <DEBUG> 2025-12-17 13:54:50,971
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:54:56,522
+ (logger.py:61): <21ad8c6b> [orchestrator_step]>>[parser,parse语义模块]
+params:请对我撒娇
+output:Parse(text='请对我撒娇', subject='我', object='撒娇', intent='request_behavior', entities=[Entity(type='behavior', value='撒娇')], sentiment='neutral')
+  <DEBUG> 2025-12-17 13:54:56,522
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:54:56,522
+ (logger.py:61): <21ad8c6b> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='请对我撒娇', subject='我', object='撒娇', intent='request_behavior', entities=[Entity(type='behavior', value='撒娇')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-17 13:54:56,522
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:55:00,016
+ (logger.py:61): <21ad8c6b> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='请对我撒娇', subject='我', object='撒娇', intent='request_behavior', entities=[Entity(type='behavior', value='撒娇')], sentiment='neutral')
+output:None
+  <DEBUG> 2025-12-17 13:55:00,016
+ (orchestrator.py:70): [2aadc9f8] [CORE] step start | user_input='请对我撒娇'  <DEBUG> 2025-12-17 13:56:04,127
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:56:10,557
+ (logger.py:61): <2aadc9f8> [orchestrator_step]>>[parser,parse语义模块]
+params:请对我撒娇
+output:Parse(text='请对我撒娇', subject='speaker', object='speaker', intent='request_affection', entities=[Entity(type='speech_act', value='撒娇')], sentiment='playful')
+  <DEBUG> 2025-12-17 13:56:10,557
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:56:10,557
+ (logger.py:61): <2aadc9f8> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='请对我撒娇', subject='speaker', object='speaker', intent='request_affection', entities=[Entity(type='speech_act', value='撒娇')], sentiment='playful')
+output:None
+  <DEBUG> 2025-12-17 13:56:10,557
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 13:56:14,157
+ (logger.py:61): <2aadc9f8> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='请对我撒娇', subject='speaker', object='speaker', intent='request_affection', entities=[Entity(type='speech_act', value='撒娇')], sentiment='playful')
+output:None
+  <DEBUG> 2025-12-17 13:56:14,157
+ (orchestrator.py:74): [d664f394] [CORE] step start | user_input='aaa'  <DEBUG> 2025-12-17 14:39:08,138
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:39:13,202
+ (logger.py:61): <d664f394> [orchestrator_step]>>[parser,parse语义模块]
+params:aaa
+output:<class 'soul.utils.type.ParseError'>
+  <DEBUG> 2025-12-17 14:39:13,202
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:39:13,202
+ (logger.py:61): <d664f394> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:<class 'soul.utils.type.ParseError'>
+output:None
+  <DEBUG> 2025-12-17 14:39:13,203
+ (decorator.py:13): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-17 14:39:18,209
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 98, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 54, in llm_model
+    final:dict=self.llm.chat(inpu)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (orchestrator.py:79): [cb093722] [CORE] step start | user_input='5'  <DEBUG> 2025-12-17 14:50:33,494
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:50:33,494
+ (logger.py:61): <cb093722> [orchestrator_step]>>[parser,parse语义模块]
+params:5
+output:Parse(text='5', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 14:50:33,494
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:50:33,494
+ (logger.py:61): <cb093722> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='5', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:50:33,494
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:50:37,352
+ (logger.py:61): <cb093722> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='5', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:50:37,352
+ (orchestrator.py:79): [7cf8177e] [CORE] step start | user_input='你好啊多伦娜，你很可爱'  <DEBUG> 2025-12-17 14:54:34,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:54:34,421
+ (logger.py:61): <7cf8177e> [orchestrator_step]>>[parser,parse语义模块]
+params:你好啊多伦娜，你很可爱
+output:Parse(text='你好啊多伦娜，你很可爱', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 14:54:34,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:54:34,421
+ (logger.py:61): <7cf8177e> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好啊多伦娜，你很可爱', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:54:34,422
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:54:37,810
+ (logger.py:61): <7cf8177e> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好啊多伦娜，你很可爱', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:54:37,810
+ (orchestrator.py:79): [4eb4c794] [CORE] step start | user_input='多伦娜小姐，她认为你不是淑女'  <DEBUG> 2025-12-17 14:55:02,390
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:55:02,390
+ (logger.py:61): <4eb4c794> [orchestrator_step]>>[parser,parse语义模块]
+params:多伦娜小姐，她认为你不是淑女
+output:Parse(text='多伦娜小姐，她认为你不是淑女', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 14:55:02,390
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:55:02,390
+ (logger.py:61): <4eb4c794> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='多伦娜小姐，她认为你不是淑女', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:55:02,390
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:55:06,922
+ (logger.py:61): <4eb4c794> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='多伦娜小姐，她认为你不是淑女', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:55:06,922
+ (orchestrator.py:79): [c58fd809] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-17 14:58:02,148
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:02,148
+ (logger.py:61): <c58fd809> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 14:58:02,148
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:02,149
+ (logger.py:61): <c58fd809> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:58:02,149
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:05,463
+ (logger.py:61): <c58fd809> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:58:05,464
+ (orchestrator.py:79): [d1d1a51d] [CORE] step start | user_input='你好啊'  <DEBUG> 2025-12-17 14:58:19,608
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:19,609
+ (logger.py:61): <d1d1a51d> [orchestrator_step]>>[parser,parse语义模块]
+params:你好啊
+output:Parse(text='你好啊', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 14:58:19,609
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:19,609
+ (logger.py:61): <d1d1a51d> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好啊', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:58:19,609
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 14:58:23,602
+ (logger.py:61): <d1d1a51d> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好啊', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 14:58:23,602
+ (orchestrator.py:79): [9124ebf4] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-17 15:00:46,089
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:00:46,089
+ (logger.py:61): <9124ebf4> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:00:46,089
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:00:46,089
+ (logger.py:61): <9124ebf4> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:00:46,089
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:00:49,714
+ (logger.py:61): <9124ebf4> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:00:49,714
+ (orchestrator.py:79): [96698c96] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-17 15:01:08,100
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:08,100
+ (logger.py:61): <96698c96> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:01:08,100
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:08,100
+ (logger.py:61): <96698c96> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:01:08,100
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:11,909
+ (logger.py:61): <96698c96> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:01:11,909
+ (orchestrator.py:79): [bec9ec8b] [CORE] step start | user_input='让我看看你的腿多伦娜，你是真人吗'  <DEBUG> 2025-12-17 15:01:40,145
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:40,145
+ (logger.py:61): <bec9ec8b> [orchestrator_step]>>[parser,parse语义模块]
+params:让我看看你的腿多伦娜，你是真人吗
+output:Parse(text='让我看看你的腿多伦娜，你是真人吗', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:01:40,145
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:40,145
+ (logger.py:61): <bec9ec8b> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='让我看看你的腿多伦娜，你是真人吗', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:01:40,145
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:01:44,885
+ (logger.py:61): <bec9ec8b> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='让我看看你的腿多伦娜，你是真人吗', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:01:44,885
+ (orchestrator.py:79): [329a072d] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-17 15:14:26,564
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:14:26,565
+ (logger.py:61): <329a072d> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:14:26,565
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:14:26,565
+ (logger.py:61): <329a072d> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:14:26,565
+ (decorator.py:13): Exception occurred: type object 'InitPersonality' has no attribute 'INIT_PERSONALITY'  <ERROR> 2025-12-17 15:14:26,565
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 54, in llm_model
+    final:dict=self.llm.chat(inpu)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 38, in chat
+    init_personality:list=InitPersonality.INIT_PERSONALITY
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'InitPersonality' has no attribute 'INIT_PERSONALITY'
+ (orchestrator.py:79): [7df92e8d] [CORE] step start | user_input='你好'  <DEBUG> 2025-12-17 15:15:26,216
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:15:26,216
+ (logger.py:61): <7df92e8d> [orchestrator_step]>>[parser,parse语义模块]
+params:你好
+output:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:15:26,217
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:15:26,217
+ (logger.py:61): <7df92e8d> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你好', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:15:26,217
+ (decorator.py:13): Exception occurred: unsupported operand type(s) for +: 'dict' and 'list'  <ERROR> 2025-12-17 15:15:26,218
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 54, in llm_model
+    final:dict=self.llm.chat(inpu)
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    "messages":init_personality+messages,
+               ~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+ (orchestrator.py:79): [11394c18] [CORE] step start | user_input='aaaa'  <DEBUG> 2025-12-17 15:40:50,258
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:40:50,259
+ (logger.py:61): <11394c18> [orchestrator_step]>>[parser,parse语义模块]
+params:aaaa
+output:Parse(text='aaaa', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:40:50,259
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:40:50,259
+ (logger.py:61): <11394c18> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='aaaa', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:40:50,259
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:40:50,265
+ (logger.py:61): <11394c18> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='aaaa', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:40:50,265
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-17 15:40:50,265
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ (orchestrator.py:79): [d4db169b] [CORE] step start | user_input='a'  <DEBUG> 2025-12-17 15:43:12,603
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:43:12,605
+ (logger.py:61): <d4db169b> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:43:12,605
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:43:12,605
+ (logger.py:61): <d4db169b> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:43:12,605
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:43:12,623
+ (logger.py:61): <d4db169b> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:43:12,623
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-17 15:43:12,623
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ (orchestrator.py:79): [03271788] [CORE] step start | user_input='a'  <DEBUG> 2025-12-17 15:44:11,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:44:11,376
+ (logger.py:61): <03271788> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:44:11,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:44:11,376
+ (logger.py:61): <03271788> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:44:11,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:44:11,379
+ (logger.py:61): <03271788> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:44:11,379
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-17 15:44:11,379
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ (orchestrator.py:79): [06098dd2] [CORE] step start | user_input='a'  <DEBUG> 2025-12-17 15:47:27,824
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:27,824
+ (logger.py:61): <06098dd2> [orchestrator_step]>>[parser,parse语义模块]
+params:a
+output:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:47:27,824
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:27,824
+ (logger.py:61): <06098dd2> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:47:27,824
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:27,827
+ (logger.py:61): <06098dd2> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='a', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:47:27,827
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-17 15:47:27,827
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ (orchestrator.py:79): [fb09e4ea] [CORE] step start | user_input='a4'  <DEBUG> 2025-12-17 15:47:51,460
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:51,460
+ (logger.py:61): <fb09e4ea> [orchestrator_step]>>[parser,parse语义模块]
+params:a4
+output:Parse(text='a4', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-17 15:47:51,460
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:51,460
+ (logger.py:61): <fb09e4ea> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='a4', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:47:51,460
+ (logger.py:60): start:====================  <DEBUG> 2025-12-17 15:47:51,463
+ (logger.py:61): <fb09e4ea> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='a4', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-17 15:47:51,463
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-17 15:47:51,463
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

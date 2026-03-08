@@ -1,0 +1,651 @@
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:41:45,329
+ (logger.py:71): {"intent": "identity_verification", "sentiment": "neutral", "entities": [{"type": "recipient", "value": "assistant"}]}  <DEBUG> 2025-12-16 17:41:45,331
+ (logger.py:68): {'intent': 'identity_verification', 'sentiment': 'neutral', 'entities': [{'type': 'recipient', 'value': 'assistant'}]}  <INFO> 2025-12-16 17:41:45,331
+ (logger.py:80): Exception occurred: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'  <ERROR> 2025-12-16 17:41:45,331
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 32, in parse
+    return Parse(
+           ^^^^^^
+TypeError: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:42:12,987
+ (logger.py:71): {"intent": "identity_verification", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-16 17:42:12,987
+ (logger.py:68): {'intent': 'identity_verification', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 17:42:12,987
+ (logger.py:80): Exception occurred: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'  <ERROR> 2025-12-16 17:42:12,987
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 32, in parse
+    return Parse(
+           ^^^^^^
+TypeError: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:44:26,637
+ (logger.py:71): {"intent": "query_identity", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-16 17:44:26,637
+ (logger.py:68): {'intent': 'query_identity', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 17:44:26,637
+ (logger.py:80): Exception occurred: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'  <ERROR> 2025-12-16 17:44:26,637
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 32, in parse
+    return Parse(
+           ^^^^^^
+TypeError: Parse.__init__() missing 2 required positional arguments: 'subject' and 'object'
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:71): {"intent": "询问身份","object": "身份","subject": "你","sentiment": "中性","entities": [{"type": "人称代词","value": "你"}]}  <DEBUG> 2025-12-16 17:47:19,989
+ (logger.py:68): {'intent': '询问身份', 'object': '身份', 'subject': '你', 'sentiment': '中性', 'entities': [{'type': '人称代词', 'value': '你'}]}  <INFO> 2025-12-16 17:47:19,989
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:71): {"intent": "询问名称","object": "你","subject": "我","sentiment": "中性","entities": []}  <DEBUG> 2025-12-16 17:47:44,538
+ (logger.py:68): {'intent': '询问名称', 'object': '你', 'subject': '我', 'sentiment': '中性', 'entities': []}  <INFO> 2025-12-16 17:47:44,538
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:48:09,925
+ (logger.py:71): {
+    "intent": "询问起源",
+    "object": "你",
+    "subject": "我",
+    "sentiment": "中性",
+    "entities": [
+        {
+            "type": "人名",
+            "value": "张三"
+        }
+    ]
+}  <DEBUG> 2025-12-16 17:48:09,926
+ (logger.py:68): {'intent': '询问起源', 'object': '你', 'subject': '我', 'sentiment': '中性', 'entities': [{'type': '人名', 'value': '张三'}]}  <INFO> 2025-12-16 17:48:09,926
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:50:30,024
+ (logger.py:71): {"intent":"inform","object":"草莓","subject":"李四","sentiment":"positive","entities":[{"type":"person","value":"张三"},{"type":"person","value":"李四"},{"type":"food","value":"草莓"}]}  <DEBUG> 2025-12-16 17:50:30,024
+ (logger.py:68): {'intent': 'inform', 'object': '草莓', 'subject': '李四', 'sentiment': 'positive', 'entities': [{'type': 'person', 'value': '张三'}, {'type': 'person', 'value': '李四'}, {'type': 'food', 'value': '草莓'}]}  <INFO> 2025-12-16 17:50:30,025
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-16 17:58:28,482
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 16, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:71): {"intent": "greeting", "object": "", "subject": "", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-16 17:59:04,481
+ (logger.py:68): {'intent': 'greeting', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 17:59:04,481
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:15,966
+ (logger.py:71): {
+    "intent": "express_affection",
+    "object": "speaker",
+    "subject": "listener",
+    "sentiment": "positive",
+    "entities": [
+        {
+            "type": "pronoun",
+            "value": "我"
+        },
+        {
+            "type": "pronoun",
+            "value": "你"
+        }
+    ]
+}  <DEBUG> 2025-12-16 17:59:15,966
+ (logger.py:68): {'intent': 'express_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': [{'type': 'pronoun', 'value': '我'}, {'type': 'pronoun', 'value': '你'}]}  <INFO> 2025-12-16 17:59:15,966
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 17:59:51,572
+ (logger.py:71): {"intent": "express_affection", "object": "speaker", "subject": "listener", "sentiment": "positive", "entities": []}  <DEBUG> 2025-12-16 17:59:51,572
+ (logger.py:68): {'intent': 'express_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-16 17:59:51,572
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:71): {"intent": "express_affection", "object": "you", "subject": "I", "sentiment": "positive", "entities": []}  <DEBUG> 2025-12-16 18:00:42,057
+ (logger.py:68): {'intent': 'express_affection', 'object': 'you', 'subject': 'I', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-16 18:00:42,057
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:01:37,348
+ (logger.py:71): {
+    "intent": "expression_of_affection",
+    "object": "speaker",
+    "subject": "listener",
+    "sentiment": "positive",
+    "entities": [
+        {
+            "type": "emotion",
+            "value": "love"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:01:37,349
+ (logger.py:68): {'intent': 'expression_of_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': [{'type': 'emotion', 'value': 'love'}]}  <INFO> 2025-12-16 18:01:37,349
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:71): {
+    "intent": "表白",
+    "object": "你",
+    "subject": "我",
+    "sentiment": "积极",
+    "entities": [
+        {
+            "type": "时间",
+            "value": "刚认识"
+        },
+        {
+            "type": "情感",
+            "value": "一见钟情"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:02:03,775
+ (logger.py:68): {'intent': '表白', 'object': '你', 'subject': '我', 'sentiment': '积极', 'entities': [{'type': '时间', 'value': '刚认识'}, {'type': '情感', 'value': '一见钟情'}]}  <INFO> 2025-12-16 18:02:03,775
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:02:58,354
+ (logger.py:71): {
+    "intent": "express_affection",
+    "object": "speaker",
+    "subject": "listener",
+    "sentiment": "positive",
+    "entities": []
+}  <DEBUG> 2025-12-16 18:02:58,355
+ (logger.py:68): {'intent': 'express_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-16 18:02:58,355
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:71): {
+    "intent": "express_affection",
+    "object": "speaker",
+    "subject": "listener",
+    "sentiment": "positive",
+    "entities": [
+        {
+            "type": "person",
+            "value": "listener"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:03:10,226
+ (logger.py:68): {'intent': 'express_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': [{'type': 'person', 'value': 'listener'}]}  <INFO> 2025-12-16 18:03:10,226
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:03:23,851
+ (logger.py:71): {
+    "intent": "express_affection",
+    "object": "you",
+    "subject": "I",
+    "sentiment": "positive",
+    "entities": []
+}  <DEBUG> 2025-12-16 18:03:23,852
+ (logger.py:68): {'intent': 'express_affection', 'object': 'you', 'subject': 'I', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-16 18:03:23,852
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:13:59,955
+ (logger.py:71): {
+    "intent": "express_affection",
+    "object": "speaker",
+    "subject": "listener",
+    "sentiment": "positive",
+    "entities": [
+        {
+            "type": "pronoun",
+            "value": "you"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:13:59,955
+ (logger.py:68): {'intent': 'express_affection', 'object': 'speaker', 'subject': 'listener', 'sentiment': 'positive', 'entities': [{'type': 'pronoun', 'value': 'you'}]}  <INFO> 2025-12-16 18:13:59,955
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-16 18:16:58,778
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 16, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:71): {
+    "intent": "number_input",
+    "object": "",
+    "subject": "",
+    "sentiment": "neutral",
+    "entities": [
+        {
+            "type": "number",
+            "value": "5"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:17:29,085
+ (logger.py:68): {'intent': 'number_input', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': [{'type': 'number', 'value': '5'}]}  <INFO> 2025-12-16 18:17:29,085
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-16 18:18:01,820
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 16, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-16 18:18:28,257
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 16, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 43, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:25:19,067
+ (logger.py:71): {
+    "intent": "query",
+    "object": "number",
+    "subject": "user",
+    "sentiment": "neutral",
+    "entities": [
+        {
+            "type": "numeric",
+            "value": "5"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:25:19,067
+ (logger.py:68): {'intent': 'query', 'object': 'number', 'subject': 'user', 'sentiment': 'neutral', 'entities': [{'type': 'numeric', 'value': '5'}]}  <INFO> 2025-12-16 18:25:19,067
+ (logger.py:71): start:====================  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:71): {
+    "intent": "number_input",
+    "object": "5",
+    "subject": "user",
+    "sentiment": "neutral",
+    "entities": [
+        {
+            "type": "number",
+            "value": "5"
+        }
+    ]
+}  <DEBUG> 2025-12-16 18:26:10,781
+ (logger.py:68): {'intent': 'number_input', 'object': '5', 'subject': 'user', 'sentiment': 'neutral', 'entities': [{'type': 'number', 'value': '5'}]}  <INFO> 2025-12-16 18:26:10,781
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:03:38,935
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "unknown",\n    "object": "",\n    "subject": "",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 19:03:38,935
+ (decorator.py:13): Exception occurred: the JSON object must be str, bytes or bytearray, not dict  <ERROR> 2025-12-16 19:03:38,935
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 20, in parse
+    parse=json.loads(parse_str)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:20:59,784
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "number_input",\n    "object": "input_value",\n    "subject": "user",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "number",\n            "value": "5"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 19:20:59,784
+ (nlp_parser.py:22): {'intent': 'number_input', 'object': 'input_value', 'subject': 'user', 'sentiment': 'neutral', 'entities': [{'type': 'number', 'value': '5'}]}  <INFO> 2025-12-16 19:20:59,784
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:34:50,437
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "unknown",\n    "object": "",\n    "subject": "",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 19:34:50,437
+ (nlp_parser.py:22): {'intent': 'unknown', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 19:34:50,438
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:37:00,799
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "numeric_input",\n    "object": "",\n    "subject": "",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "number",\n            "value": "2"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 19:37:00,799
+ (nlp_parser.py:22): {'intent': 'numeric_input', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': [{'type': 'number', 'value': '2'}]}  <INFO> 2025-12-16 19:37:00,800
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:52:14,005
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query",\n    "object": "instruction",\n    "subject": "system",\n    "sentiment": "confused",\n    "entities": [\n        {\n            "type": "action_language",\n            "value": "动作语言"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 19:52:14,005
+ (nlp_parser.py:22): {'intent': 'query', 'object': 'instruction', 'subject': 'system', 'sentiment': 'confused', 'entities': [{'type': 'action_language', 'value': '动作语言'}]}  <INFO> 2025-12-16 19:52:14,005
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 19:53:01,828
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "number_input",\n    "object": "",\n    "subject": "",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "number",\n            "value": "5"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 19:53:01,828
+ (nlp_parser.py:22): {'intent': 'number_input', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': [{'type': 'number', 'value': '5'}]}  <INFO> 2025-12-16 19:53:01,828
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:00:48,815
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "greeting",\n    "object": "",\n    "subject": "",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 20:00:48,815
+ (nlp_parser.py:22): {'intent': 'greeting', 'object': '', 'subject': '', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 20:00:48,815
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:16,004
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "express_amusement",\n    "object": "",\n    "subject": "",\n    "sentiment": "positive",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 20:01:16,004
+ (nlp_parser.py:22): {'intent': 'express_amusement', 'object': '', 'subject': '', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-16 20:01:16,004
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:01:37,500
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "request",\n    "object": "leg",\n    "subject": "user",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "body_part",\n            "value": "leg"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:01:37,501
+ (nlp_parser.py:22): {'intent': 'request', 'object': 'leg', 'subject': 'user', 'sentiment': 'neutral', 'entities': [{'type': 'body_part', 'value': 'leg'}]}  <INFO> 2025-12-16 20:01:37,501
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:09,247
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "request",\n    "object": "leg",\n    "subject": "user",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "body_part",\n            "value": "leg"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:02:09,247
+ (nlp_parser.py:22): {'intent': 'request', 'object': 'leg', 'subject': 'user', 'sentiment': 'neutral', 'entities': [{'type': 'body_part', 'value': 'leg'}]}  <INFO> 2025-12-16 20:02:09,247
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:02:35,335
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "describe",\n    "object": "leg",\n    "subject": "unspecified",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "body_part",\n            "value": "leg"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:02:35,335
+ (nlp_parser.py:22): {'intent': 'describe', 'object': 'leg', 'subject': 'unspecified', 'sentiment': 'neutral', 'entities': [{'type': 'body_part', 'value': 'leg'}]}  <INFO> 2025-12-16 20:02:35,335
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:03:18,044
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "request_visual",\n    "object": "legs",\n    "subject": "you",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "name",\n            "value": "多伦娜"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:03:18,044
+ (nlp_parser.py:22): {'intent': 'request_visual', 'object': 'legs', 'subject': 'you', 'sentiment': 'neutral', 'entities': [{'type': 'name', 'value': '多伦娜'}]}  <INFO> 2025-12-16 20:03:18,044
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:29,431
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_name",\n    "object": "name",\n    "subject": "assistant",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 20:05:29,431
+ (nlp_parser.py:22): {'intent': 'query_name', 'object': 'name', 'subject': 'assistant', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 20:05:29,431
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:05:46,590
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_version",\n    "object": "version",\n    "subject": "you",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "system",\n            "value": "version"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:05:46,591
+ (nlp_parser.py:22): {'intent': 'query_version', 'object': 'version', 'subject': 'you', 'sentiment': 'neutral', 'entities': [{'type': 'system', 'value': 'version'}]}  <INFO> 2025-12-16 20:05:46,591
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:12,144
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "inquire_character_and_identity",\n    "object": "character and identity",\n    "subject": "you",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "person",\n            "value": "you"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:06:12,144
+ (nlp_parser.py:22): {'intent': 'inquire_character_and_identity', 'object': 'character and identity', 'subject': 'you', 'sentiment': 'neutral', 'entities': [{'type': 'person', 'value': 'you'}]}  <INFO> 2025-12-16 20:06:12,144
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:32,420
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_name",\n    "object": "name",\n    "subject": "assistant",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 20:06:32,420
+ (nlp_parser.py:22): {'intent': 'query_name', 'object': 'name', 'subject': 'assistant', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 20:06:32,421
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:06:41,375
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_version",\n    "object": "version",\n    "subject": "you",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "system",\n            "value": "version"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:06:41,376
+ (nlp_parser.py:22): {'intent': 'query_version', 'object': 'version', 'subject': 'you', 'sentiment': 'neutral', 'entities': [{'type': 'system', 'value': 'version'}]}  <INFO> 2025-12-16 20:06:41,376
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:07:54,193
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "inquire_identity_and_personality",\n    "object": "user",\n    "subject": "self",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "identity",\n            "value": "真人"\n        },\n        {\n            "type": "attribute",\n            "value": "性格"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:07:54,193
+ (nlp_parser.py:22): {'intent': 'inquire_identity_and_personality', 'object': 'user', 'subject': 'self', 'sentiment': 'neutral', 'entities': [{'type': 'identity', 'value': '真人'}, {'type': 'attribute', 'value': '性格'}]}  <INFO> 2025-12-16 20:07:54,193
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:08:49,297
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_name",\n    "object": "name",\n    "subject": "you",\n    "sentiment": "neutral",\n    "entities": []\n}'}  <DEBUG> 2025-12-16 20:08:49,298
+ (nlp_parser.py:22): {'intent': 'query_name', 'object': 'name', 'subject': 'you', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-16 20:08:49,298
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:01,252
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "query_version",\n    "object": "version",\n    "subject": "system",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "system_property",\n            "value": "version"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:09:01,252
+ (nlp_parser.py:22): {'intent': 'query_version', 'object': 'version', 'subject': 'system', 'sentiment': 'neutral', 'entities': [{'type': 'system_property', 'value': 'version'}]}  <INFO> 2025-12-16 20:09:01,252
+ (logger.py:60): start:====================  <DEBUG> 2025-12-16 20:09:13,162
+ (logger.py:61): {'role': 'assistant', 'content': '{\n    "intent": "inquire",\n    "object": "真人",\n    "subject": "你",\n    "sentiment": "neutral",\n    "entities": [\n        {\n            "type": "person",\n            "value": "你"\n        }\n    ]\n}'}  <DEBUG> 2025-12-16 20:09:13,162
+ (nlp_parser.py:22): {'intent': 'inquire', 'object': '真人', 'subject': '你', 'sentiment': 'neutral', 'entities': [{'type': 'person', 'value': '你'}]}  <INFO> 2025-12-16 20:09:13,162

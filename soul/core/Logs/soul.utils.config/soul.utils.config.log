@@ -1,0 +1,9 @@
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2026-01-18 19:48:08,722
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r+') as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'

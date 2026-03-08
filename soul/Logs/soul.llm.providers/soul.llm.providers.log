@@ -1,0 +1,50 @@
+ (decorator.py:13): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2026-03-08 19:32:51,070
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\llm\providers.py", line 52, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (decorator.py:13): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2026-03-08 19:33:27,683
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\llm\providers.py", line 52, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (decorator.py:13): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2026-03-08 20:02:37,897
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\llm\providers.py", line 52, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (decorator.py:13): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2026-03-08 20:02:56,153
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\llm\providers.py", line 52, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (decorator.py:13): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2026-03-08 20:04:04,838
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\llm\providers.py", line 52, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions

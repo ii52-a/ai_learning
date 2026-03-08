@@ -1,0 +1,412 @@
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:19:05,087
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(text)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 34, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:30:54,690
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 34, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:31:33,067
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 34, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:32:24,676
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 34, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:32:54,193
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 34, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 19:36:28,872
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 36, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: Expecting value: line 1 column 1 (char 0)  <ERROR> 2025-12-15 19:42:45,079
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 20, in parse
+    parse=json.loads(parse_str)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ (logger.py:80): Exception occurred: Expecting value: line 1 column 1 (char 0)  <ERROR> 2025-12-15 19:44:15,257
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 20, in parse
+    parse=json.loads(parse_str)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:45:05,808
+ (logger.py:71): 你好！😊 看起来你只发了一个字母“a”，是想测试一下我是否在线，还是有其他问题想要咨询呢？
+
+我在这里随时准备帮助你！无论是：
+- 回答任何问题
+- 协助解决问题
+- 进行对话交流
+- 或者只是随便聊聊
+
+请随时告诉我你需要什么帮助，我会尽力为你提供最好的支持！✨  <DEBUG> 2025-12-15 19:45:05,808
+ (logger.py:80): Exception occurred: Expecting value: line 1 column 1 (char 0)  <ERROR> 2025-12-15 19:45:05,808
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 21, in parse
+    parse=json.loads(parse_str)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:48:13,992
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 19:48:13,992
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:48:20,099
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 19:48:20,099
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:48:41,959
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 19:48:41,959
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 19:48:41,960
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 19:48:41,960
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:48:59,146
+ (logger.py:71): {"intent": "express_affection", "sentiment": "positive", "entities": []}  <DEBUG> 2025-12-15 19:48:59,146
+ (logger.py:68): {'intent': 'express_affection', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-15 19:48:59,146
+ (logger.py:68): {'intent': 'express_affection', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-15 19:48:59,146
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:49:24,942
+ (logger.py:71): {"intent":"express_love","sentiment":"positive","entities":[{"type":"person","value":"李二"}]}  <DEBUG> 2025-12-15 19:49:24,942
+ (logger.py:68): {'intent': 'express_love', 'sentiment': 'positive', 'entities': [{'type': 'person', 'value': '李二'}]}  <INFO> 2025-12-15 19:49:24,942
+ (logger.py:68): {'intent': 'express_love', 'sentiment': 'positive', 'entities': [{'type': 'person', 'value': '李二'}]}  <INFO> 2025-12-15 19:49:24,962
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:49:45,581
+ (logger.py:71): {"intent": "identity_verification", "sentiment": "neutral", "entities": [{"type": "person_name", "value": "多伦娜"}]}  <DEBUG> 2025-12-15 19:49:45,583
+ (logger.py:68): {'intent': 'identity_verification', 'sentiment': 'neutral', 'entities': [{'type': 'person_name', 'value': '多伦娜'}]}  <INFO> 2025-12-15 19:49:45,583
+ (logger.py:68): {'intent': 'identity_verification', 'sentiment': 'neutral', 'entities': [{'type': 'person_name', 'value': '多伦娜'}]}  <INFO> 2025-12-15 19:49:45,583
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:52:29,450
+ (logger.py:71): {"intent":"query_name","sentiment":"neutral","entities":[]}  <DEBUG> 2025-12-15 19:52:29,450
+ (logger.py:68): {'intent': 'query_name', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 19:52:29,450
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:52:48,255
+ (logger.py:71): {"intent":"express_affection","sentiment":"positive","entities":[{"type":"person","value":"李二"}]}  <DEBUG> 2025-12-15 19:52:48,255
+ (logger.py:68): {'intent': 'express_affection', 'sentiment': 'positive', 'entities': [{'type': 'person', 'value': '李二'}]}  <INFO> 2025-12-15 19:52:48,255
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:53:04,242
+ (logger.py:71): {"intent":"question","sentiment":"neutral","entities":[]}  <DEBUG> 2025-12-15 19:53:04,242
+ (logger.py:68): {'intent': 'question', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 19:53:04,242
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:53:24,609
+ (logger.py:71): {"intent":"user_introduction_query","sentiment":"neutral","entities":[{"type":"assistant_name","value":"多伦娜"}]}  <DEBUG> 2025-12-15 19:53:24,609
+ (logger.py:68): {'intent': 'user_introduction_query', 'sentiment': 'neutral', 'entities': [{'type': 'assistant_name', 'value': '多伦娜'}]}  <INFO> 2025-12-15 19:53:24,609
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:55:39,469
+ (logger.py:71): {"intent":"inquire_name","sentiment":"neutral","entities":[{"type":"name","value":"多伦娜"}]}  <DEBUG> 2025-12-15 19:55:39,469
+ (logger.py:68): {'intent': 'inquire_name', 'sentiment': 'neutral', 'entities': [{'type': 'name', 'value': '多伦娜'}]}  <INFO> 2025-12-15 19:55:39,469
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:56:09,400
+ (logger.py:71): {"intent":"询问姓名","sentiment":"中性","entities":[{"type":"人名","value":"多伦娜"},{"type":"人名","value":"张三"}]}  <DEBUG> 2025-12-15 19:56:09,400
+ (logger.py:68): {'intent': '询问姓名', 'sentiment': '中性', 'entities': [{'type': '人名', 'value': '多伦娜'}, {'type': '人名', 'value': '张三'}]}  <INFO> 2025-12-15 19:56:09,401
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:56:48,795
+ (logger.py:71): {"intent":"query_name","sentiment":"neutral","entities":[{"type":"name","value":"多伦娜"}]}  <DEBUG> 2025-12-15 19:56:48,795
+ (logger.py:68): {'intent': 'query_name', 'sentiment': 'neutral', 'entities': [{'type': 'name', 'value': '多伦娜'}]}  <INFO> 2025-12-15 19:56:48,795
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:57:14,460
+ (logger.py:71): {"intent": "express_opinion", "sentiment": "negative", "entities": [{"type": "person", "value": "她"}]}  <DEBUG> 2025-12-15 19:57:14,461
+ (logger.py:68): {'intent': 'express_opinion', 'sentiment': 'negative', 'entities': [{'type': 'person', 'value': '她'}]}  <INFO> 2025-12-15 19:57:14,461
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 19:57:32,210
+ (logger.py:71): {"intent":"inquire_identity","sentiment":"neutral","entities":[{"type":"person","value":"她"}]}  <DEBUG> 2025-12-15 19:57:32,210
+ (logger.py:68): {'intent': 'inquire_identity', 'sentiment': 'neutral', 'entities': [{'type': 'person', 'value': '她'}]}  <INFO> 2025-12-15 19:57:32,210
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 20:10:44,642
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 21:12:39,764
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 21:16:24,551
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions  <ERROR> 2025-12-15 21:19:58,684
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 39, in chat
+    response.raise_for_status()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+ (logger.py:80): Exception occurred: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))  <ERROR> 2025-12-15 21:22:08,554
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Users\ii52\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 17, in parse
+    parse_str=self.llm_client.chat(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\dp_api_st.py", line 38, in chat
+    response = requests.post(url=url, headers=self.headers, json=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:27:52,131
+ (logger.py:71): {"intent": "greeting", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 21:27:52,131
+ (logger.py:68): {'intent': 'greeting', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 21:27:52,131
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:31:30,239
+ (logger.py:71): {"intent":null,"sentiment":null,"entities":[]}  <DEBUG> 2025-12-15 21:31:30,239
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 21:31:30,239
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:31:46,440
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 21:31:46,440
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 21:31:46,440
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:34:07,652
+ (logger.py:71): {}  <DEBUG> 2025-12-15 21:34:07,652
+ (logger.py:68): {}  <INFO> 2025-12-15 21:34:07,652
+ (logger.py:80): Exception occurred: 'intent'  <ERROR> 2025-12-15 21:34:07,652
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\nlp_parser.py", line 34, in parse
+    intent=parse["intent"],
+           ~~~~~^^^^^^^^^^
+KeyError: 'intent'
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:34:52,368
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 21:34:52,368
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 21:34:52,368
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:35:04,276
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 21:35:04,277
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 21:35:04,277
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:35:15,084
+ (logger.py:71): {"intent": null, "sentiment": null, "entities": []}  <DEBUG> 2025-12-15 21:35:15,084
+ (logger.py:68): {'intent': None, 'sentiment': None, 'entities': []}  <INFO> 2025-12-15 21:35:15,084
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:35:49,473
+ (logger.py:71): {"intent": "unknown", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 21:35:49,474
+ (logger.py:68): {'intent': 'unknown', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 21:35:49,474
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:36:05,824
+ (logger.py:71): {"intent": "none", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 21:36:05,824
+ (logger.py:68): {'intent': 'none', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 21:36:05,824
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:37:55,154
+ (logger.py:71): {"intent": "express_affection", "sentiment": "positive", "entities": []}  <DEBUG> 2025-12-15 21:37:55,154
+ (logger.py:68): {'intent': 'express_affection', 'sentiment': 'positive', 'entities': []}  <INFO> 2025-12-15 21:37:55,154
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 21:38:25,083
+ (logger.py:71): {"intent": "express_affection", "sentiment": "positive", "entities": [{"type": "person_name", "value": "李二"}]}  <DEBUG> 2025-12-15 21:38:25,083
+ (logger.py:68): {'intent': 'express_affection', 'sentiment': 'positive', 'entities': [{'type': 'person_name', 'value': '李二'}]}  <INFO> 2025-12-15 21:38:25,083
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:03:37,469
+ (logger.py:71): {"intent": "greeting", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 22:03:37,469
+ (logger.py:68): {'intent': 'greeting', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 22:03:37,469
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:08:47,415
+ (logger.py:71): {"intent": "greeting", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 22:08:47,416
+ (logger.py:68): {'intent': 'greeting', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 22:08:47,416
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:09:36,644
+ (logger.py:71): {
+    "intent": "query_ai_capability",
+    "sentiment": "neutral",
+    "entities": [
+        {
+            "type": "ai_model",
+            "value": "ai模型"
+        }
+    ]
+}  <DEBUG> 2025-12-15 22:09:36,644
+ (logger.py:68): {'intent': 'query_ai_capability', 'sentiment': 'neutral', 'entities': [{'type': 'ai_model', 'value': 'ai模型'}]}  <INFO> 2025-12-15 22:09:36,644
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:10:15,840
+ (logger.py:71): {"intent": "greeting", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 22:10:15,841
+ (logger.py:68): {'intent': 'greeting', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 22:10:15,841
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:11:31,310
+ (logger.py:71): {
+    "intent": "query_instruction_status",
+    "sentiment": "neutral",
+    "entities": [
+        {
+            "type": "subject",
+            "value": "ai_model"
+        }
+    ]
+}  <DEBUG> 2025-12-15 22:11:31,310
+ (logger.py:68): {'intent': 'query_instruction_status', 'sentiment': 'neutral', 'entities': [{'type': 'subject', 'value': 'ai_model'}]}  <INFO> 2025-12-15 22:11:31,310
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:14:42,657
+ (logger.py:71): {"intent": "greeting", "sentiment": "neutral", "entities": []}  <DEBUG> 2025-12-15 22:14:42,657
+ (logger.py:68): {'intent': 'greeting', 'sentiment': 'neutral', 'entities': []}  <INFO> 2025-12-15 22:14:42,657
+ (logger.py:71): start:====================  <DEBUG> 2025-12-15 22:15:52,455
+ (logger.py:71): {"intent":"identity_verification","sentiment":"neutral","entities":[{"type":"target","value":"assistant"}]}  <DEBUG> 2025-12-15 22:15:52,455
+ (logger.py:68): {'intent': 'identity_verification', 'sentiment': 'neutral', 'entities': [{'type': 'target', 'value': 'assistant'}]}  <INFO> 2025-12-15 22:15:52,455

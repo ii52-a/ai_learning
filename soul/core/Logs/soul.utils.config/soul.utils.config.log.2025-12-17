@@ -1,0 +1,55 @@
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:15:26,217
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r') as f:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:40:50,259
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r') as f:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:43:12,605
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r') as f:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:44:11,376
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r+') as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:47:27,825
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 22, in init_personality
+    with open('bg.txt','r+') as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'
+ (config.py:22): <UNK>  <INFO> 2025-12-17 15:47:51,460
+ (decorator.py:13): Exception occurred: [Errno 2] No such file or directory: 'bg.txt'  <ERROR> 2025-12-17 15:47:51,461
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\config.py", line 23, in init_personality
+    with open('bg.txt','r+') as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'bg.txt'

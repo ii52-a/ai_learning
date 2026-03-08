@@ -1,0 +1,28 @@
+ (orchestrator.py:79): [7b33de74] [CORE] step start | user_input='你去'  <DEBUG> 2025-12-20 13:56:15,220
+ (logger.py:60): start:====================  <DEBUG> 2025-12-20 13:56:15,234
+ (logger.py:61): <7b33de74> [orchestrator_step]>>[parser,parse语义模块]
+params:你去
+output:Parse(text='你去', subject='None', object='None', intent='None', entities=[], sentiment='None')
+  <DEBUG> 2025-12-20 13:56:15,235
+ (logger.py:60): start:====================  <DEBUG> 2025-12-20 13:56:15,235
+ (logger.py:61): <7b33de74> [orchestrator_step]>>[emotion,update_emotion情绪模块]
+params:Parse(text='你去', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-20 13:56:15,235
+ (logger.py:60): start:====================  <DEBUG> 2025-12-20 13:56:15,243
+ (logger.py:61): <7b33de74> [orchestrator_step]>>[memory,remember记忆模块]
+params:Parse(text='你去', subject='None', object='None', intent='None', entities=[], sentiment='None')
+output:None
+  <DEBUG> 2025-12-20 13:56:15,243
+ (decorator.py:13): Exception occurred: 'NoneType' object is not subscriptable  <ERROR> 2025-12-20 13:56:15,244
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 103, in step
+    final=self.llm_model(trace_id,parsed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\core\orchestrator.py", line 61, in llm_model
+    return final['content']
+           ~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

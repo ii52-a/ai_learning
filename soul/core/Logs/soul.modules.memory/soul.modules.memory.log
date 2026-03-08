@@ -1,0 +1,8 @@
+ (decorator.py:13): Exception occurred:   <ERROR> 2026-01-18 19:48:08,729
+Traceback (most recent call last):
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\utils\decorator.py", line 11, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\ii52\PycharmProjects\Ai_Learning\soul\modules\memory.py", line 23, in remember
+    raise TypeError
+TypeError
